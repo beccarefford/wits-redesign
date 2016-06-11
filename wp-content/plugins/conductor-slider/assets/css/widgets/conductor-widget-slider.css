@@ -1,0 +1,9 @@
+/**
+ * Conductor Widget Display Grid Stylesheet
+ */
+
+.conductor-widget.conductor-grid-item {
+	display: block;
+	float: left;
+	vertical-align: baseline;
+}

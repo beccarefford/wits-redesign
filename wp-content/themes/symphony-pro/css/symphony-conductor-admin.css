@@ -1,0 +1,48 @@
+/**
+ * Symphony Conductor Admin Stylesheet
+ */
+
+
+/**
+ * Conductor Widget Displays
+ */
+
+/* Portfolio */
+.conductor-widget-size-preview .post-portfolio .portfolio {
+	width: 100%;
+	height: 100%;
+	font-size: 60px;
+	text-align: center;
+}
+
+/* Colors used as a fallback if admin color scheme does not exist */
+.conductor-widget-size:hover .conductor-widget-size-preview .post-portfolio .portfolio,
+.conductor-widget-size input[type=radio]:checked + .conductor-widget-size-preview .post-portfolio .portfolio {
+	color: #1e8cbe;
+}
+
+.accordion-section[id$="symphony_conductor_fonts"] > h3,
+.accordion-section[id*="symphony_fonts_conductor"] > h3 {
+	padding-right: 25px;
+}
+
+.accordion-section[id$="symphony_conductor_fonts"] > h3:before,
+.accordion-section[id*="symphony_fonts_conductor"] > h3:before {
+	content: "\f488";
+	margin-right: 0.5em;
+	font-family: 'dashicons';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 1;
+	text-decoration: inherit;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

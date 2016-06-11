@@ -1,0 +1,20 @@
+/**
+ * Conductor WordPress Backwards Compatibilty
+ */
+
+/* Admin Bar/Toolbar */
+#wpadminbar .ab-icon.dashicons {
+	font: normal 20px/1 'dashicons';
+}
+
+#wpadminbar .conductor .conductor-icon {
+	margin-top: 3px;
+	margin-left: -3px;
+	padding-right: 8px;
+}
+
+/* Admin Menu */
+#adminmenu .toplevel_page_conductor .wp-menu-image img {
+	max-width: 20px;
+	padding: 4px 0 0 4px;
+}
