@@ -1,1 +1,0 @@
-<p><?php _e( 'Would you like Note to remove data on uninstall?', 'note' ); ?></p>

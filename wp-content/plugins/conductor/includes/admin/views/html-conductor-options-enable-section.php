@@ -1,1 +1,0 @@
-<p><?php _e( 'Use this option to enable or disable Conductor.', 'conductor' ); ?></p>
