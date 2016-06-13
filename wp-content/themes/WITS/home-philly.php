@@ -95,7 +95,7 @@ wp_reset_postdata(); ?>
 <div class="container">
 <?php
     $loop_speakers = new WP_Query( array(
-    'post_type' => 'speaker',
+    'post_type' => 'philly_speaker',
     'posts_per_page' => -1,
     'orderby' => 'menu_order',
     'order' => 'DESC'
