@@ -1,25 +1,19 @@
 <?php
-/**
- * Displays the index section of the theme.
- *
- * @package Theme Horse
- * @subpackage Interface
- * @since Interface 1.0
- */
+/** Template Name: Philly Home */
 ?>
+
 <?php get_header(); ?>
 
 	<section class="container banner">
 	<div class="landing" style="background-image:
     url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
-			<h1>Women In Tech Summit</h1>
-			<p>Inspire. Educate. Connect.</p>
+			<h1>Philadelphia</h1>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="box">
 						<div>
 							<!--<span class="sub">WHEN</span>-->
-							<span class="title"></span> <span class="desc">April 11 - 12, 2016</span>
+							<span class="title"></span> <span class="desc">April 9, 2016</span>
 						</div>
 						<div>
 							<!--<span class="sub">WHERE</span>-->
@@ -37,14 +31,14 @@
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
-				<h2>Connection. Collaboration. Community.</h2>
-				<p>Entering its 11th year, the Emerging Technologies Conference has brought the
-					leaders of the open source community to Philadelphia to teach about their projects,
-					their work and how these technologies are changing software development. During this time,
-					ETE has become one of the largest gatherings of developers in the mid-Atlantic.</p>
+				<h2>Inspire. Educate. Connect.</h2>
+				<p>The Women in Tech Summit inspires, educates and connects
+					women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
+				workshops; information and discussions about careers in tech and
+				how to pursue them; and connection and networking opportunities with
+				other women in various aspects and careers in technology.</p>
 			</div>
 			<div class="col-md-5">
-				<br />
 				<a target="_blank" href="http://chariotsolutions.com">
 				<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
 			alt="Presented by Chariot Solutions" /></a>
