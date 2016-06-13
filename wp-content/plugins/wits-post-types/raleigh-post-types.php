@@ -1,25 +1,25 @@
 <?php
 
 /*
-Plugin Name: Washington Custom Post Types
-Description: Sessions, speakers, and sponsors for Washington.
+Plugin Name: Raleigh Custom Post Types
+Description: Sessions, speakers, and sponsors for Raleigh.
 */
 
-function register_washington_session_post_type()
+function register_raleigh_session_post_type()
 {
     $labels = array(
-        "name" => "Washington Sessions",
-        "singular_name" => "Washington Session",
-        "menu_name" => "Washington Sessions",
-        "all_items" => "All Washington Sessions",
+        "name" => "Raleigh Sessions",
+        "singular_name" => "Raleigh Session",
+        "menu_name" => "Raleigh Sessions",
+        "all_items" => "All Raleigh Sessions",
         "add_new" => "Add New",
-        "add_new_item" => "Add New Washington Session",
+        "add_new_item" => "Add New Raleigh Session",
         "edit" => "Edit",
-        "edit_item" => "Edit Washington Session",
-        "new_item" => "New Washington Session",
+        "edit_item" => "Edit Raleigh Session",
+        "new_item" => "New Raleigh Session",
         "view" => "View",
-        "view_item" => "View Washington Session",
-        "search_items" => "Search Washington Session",
+        "view_item" => "View Raleigh Session",
+        "search_items" => "Search Raleigh Session",
         "not_found" => "No Sessions Found",
         "not_found_in_trash" => "No Sessions found in Trash",
     );
@@ -35,34 +35,34 @@ function register_washington_session_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "washington_session", "with_front" => true),
+        "rewrite" => array("slug" => "raleigh_session", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author", "tags"),
     );
-    register_post_type("washington_session", $args);
+    register_post_type("raleigh_session", $args);
 }
-add_action('init', 'register_washington_session_post_type');
+add_action('init', 'register_raleigh_session_post_type');
 
 
 
 
 
 /* REGISTER SPEAKERS POST TYPE */
-function register_washington_speaker_post_type()
+function register_raleigh_speaker_post_type()
 {
     $labels = array(
-        "name" => "Washington Speakers",
-        "singular_name" => "Washington Speaker",
-        "menu_name" => "Washington Speakers",
-        "all_items" => "All Washington Speakers",
+        "name" => "Raleigh Speakers",
+        "singular_name" => "Raleigh Speaker",
+        "menu_name" => "Raleigh Speakers",
+        "all_items" => "All Raleigh Speakers",
         "add_new" => "Add New",
-        "add_new_item" => "Add New Washington Speaker",
+        "add_new_item" => "Add New Raleigh Speaker",
         "edit" => "Edit",
-        "edit_item" => "Edit Washington Speaker",
-        "new_item" => "New Washington Speaker",
+        "edit_item" => "Edit Raleigh Speaker",
+        "new_item" => "New Raleigh Speaker",
         "view" => "View",
-        "view_item" => "View Washington Speaker",
-        "search_items" => "Search Washington Speakers",
+        "view_item" => "View Raleigh Speaker",
+        "search_items" => "Search Raleigh Speakers",
         "not_found" => "No Speakers Found",
         "not_found_in_trash" => "No Speakers found in Trash",
     );
@@ -78,31 +78,31 @@ function register_washington_speaker_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "washington_speaker", "with_front" => true),
+        "rewrite" => array("slug" => "raleigh_speaker", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
-    register_post_type("washington_speaker", $args);
+    register_post_type("raleigh_speaker", $args);
 }
-add_action('init', 'register_washington_speaker_post_type');
+add_action('init', 'register_raleigh_speaker_post_type');
 
 
 /* REGISTER SPONSOR POST TYPE */
-function register_washington_sponsor_post_type()
+function register_raleigh_sponsor_post_type()
 {
     $labels = array(
-        "name" => "Washington Sponsors",
-        "singular_name" => "Washington Sponsor",
-        "menu_name" => "Washington Sponsors",
-        "all_items" => "All Washington Sponsors",
+        "name" => "Raleigh Sponsors",
+        "singular_name" => "Raleigh Sponsor",
+        "menu_name" => "Raleigh Sponsors",
+        "all_items" => "All Raleigh Sponsors",
         "add_new" => "Add New",
-        "add_new_item" => "Add New Washington Sponsor",
+        "add_new_item" => "Add New Raleigh Sponsor",
         "edit" => "Edit",
-        "edit_item" => "Edit Washington Sponsor",
-        "new_item" => "New Washington Sponsor",
+        "edit_item" => "Edit Raleigh Sponsor",
+        "new_item" => "New Raleigh Sponsor",
         "view" => "View",
-        "view_item" => "View Washington Sponsor",
-        "search_items" => "Search Washington Sponsors",
+        "view_item" => "View Raleigh Sponsor",
+        "search_items" => "Search Raleigh Sponsors",
         "not_found" => "No Sponsors Found",
         "not_found_in_trash" => "No Sponsors found in Trash",
     );
@@ -118,10 +118,10 @@ function register_washington_sponsor_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "washington_sponsor", "with_front" => true),
+        "rewrite" => array("slug" => "raleigh_sponsor", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
-    register_post_type("washington_sponsor", $args);
+    register_post_type("raleigh_sponsor", $args);
 }
-add_action('init', 'register_washington_sponsor_post_type');
+add_action('init', 'register_raleigh_sponsor_post_type');
