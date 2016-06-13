@@ -1,2 +1,4 @@
 vendor
 wp-content/uploads/
+wp-config.php
+wp-content/mysql.sql
