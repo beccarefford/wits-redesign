@@ -87,7 +87,7 @@ function register_philly_speaker_post_type()
 add_action('init', 'register_philly_speaker_post_type');
 
 
-/* REGISTER SPONSOR POST TYPE */
+/* REGISTER SPONSOR POST TYPE
 function register_philly_sponsor_post_type()
 {
     $labels = array(
@@ -125,3 +125,5 @@ function register_philly_sponsor_post_type()
     register_post_type("philly_sponsor", $args);
 }
 add_action('init', 'register_philly_sponsor_post_type');
+
+*/
