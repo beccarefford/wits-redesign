@@ -37,11 +37,12 @@
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
-				<h2>Connection. Collaboration. Community.</h2>
-				<p>Entering its 11th year, the Emerging Technologies Conference has brought the
-					leaders of the open source community to Philadelphia to teach about their projects,
-					their work and how these technologies are changing software development. During this time,
-					ETE has become one of the largest gatherings of developers in the mid-Atlantic.</p>
+				<h2>Inspire. Educate. Connect.</h2>
+				<p>The Women in Tech Summit inspires, educates and connects
+					women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
+				workshops; information and discussions about careers in tech and
+				how to pursue them; and connection and networking opportunities with
+				other women in various aspects and careers in technology.</p>
 			</div>
 			<div class="col-md-5">
 				<br />
@@ -51,6 +52,8 @@
 			</div>
 		</div>
         </section>
+
+<?php /*
 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
@@ -180,5 +183,7 @@ wp_reset_postdata(); ?>
 	</div>
 </div>
 <!-- End Sponsors -->
+
+*/ ?>
 
 <?php get_footer(); ?>

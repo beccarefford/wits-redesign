@@ -204,18 +204,20 @@ a:hover {
 }
 
 #access a {
-	font: bold 16px/28px "Montserrat", arial, sans-serif;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 13px;
 	padding: 0 0 0 0;
 	height: 45px;
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 #access a:hover, #access ul li:hover > a {
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 #access a:active {
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 .search-toggle {
@@ -227,32 +229,42 @@ a:hover {
 }
 
 #search-box {
-	top: 0px;
+	top: 55px;
 }
 
 #search-box input.s {
 	height: inherit;
-	width: inherit;
+	width: 60%;
 }
 
 input[type="submit"] {
-	background-color: #F3860D;
+	background-color: #9E1B42;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	text-transform: uppercase;
+
 }
 
 /* Dropdown */
 
 #access ul li ul {
-	border-top: 4px solid #F3860D;
+	border-top: 8px solid #9E1B42;
 	top: 55px;
+	left: -30px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 13px;
+	padding: 0 0 0 0;
+	text-transform: uppercase;
 }
 
 #access ul li.current-menu-item ul li a:hover {
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 #access ul li ul li ul {
 	display: block;
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 #access ul li ul {
@@ -260,16 +272,16 @@ input[type="submit"] {
 }
 
 #access ul li ul li a:hover, #access ul li ul li:hover > a, #access ul li.current-menu-item ul li a:hover {
-	background-color: #F9F9F9;
-	color: #F3860D;
+	background-color: #f3f3f3;
+	color: #9E1B42;
 }
 
 #access ul li.current-menu-item a, #access ul li.current_page_ancestor a, #access ul li.current-menu-ancestor a, #access ul li.current_page_item a, #access ul li:hover > a {
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 #controllers a.active {
-	color: #F3860D;
+	color: #9E1B42;
 }
 
 /* Big Orange Slogan */
@@ -279,13 +291,7 @@ input[type="submit"] {
 }
 
 .page-title-wrap {
-	background: #00b7ea;
-	background: -moz-linear-gradient(top, #00b7ea 0%, #009fc3 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00b7ea), color-stop(100%, #009fc3));
-	background: -webkit-linear-gradient(top, #00b7ea 0%, #009fc3 100%);
-	background: -o-linear-gradient(top, #00b7ea 0%, #009fc3 100%);
-	background: -ms-linear-gradient(top, #00b7ea 0%, #009fc3 100%);
-	background: linear-gradient(to bottom, #00b7ea 0%, #009fc3 100%);
+	background: #9E1B42;
 	padding: 0;
 }
 
@@ -296,7 +302,7 @@ a.more-link:hover {
 }
 
 .hgroup-right .active {
-	color: #F3860D;
+	color: #9E1B42!important;
 }
 
 .search-toggle {
@@ -311,6 +317,10 @@ a.more-link:hover {
 	height: 18px;
 	position: absolute;
 	right: 0;
+}
+
+.search-toggle:hover {
+	color: #9E1B42;
 }
 
 .search-toggle:before {
