@@ -19,7 +19,7 @@
           <?php
           $excerpt = get_the_excerpt();
           $permalink = get_permalink();
-          $talks = get_field('philly_session');
+          $talks = get_field('philly_session_relationship');
             if ($talks): ?>
                 <?php foreach ($talks as $post): ?>
                   <?php setup_postdata($post); ?>
