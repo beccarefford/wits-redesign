@@ -44,11 +44,11 @@ $current_post = $loop_speakers->current_post + 1;
           <div class="col-md-10 col-xs-9">
             <a href="<?php the_permalink() ?>">
               <h3 class="name"><?php the_title(); ?></h3></a>
-              <div class="speaker-job-title"><?php the_field('job_title'); ?></div>
+              <div class="speaker-job-title"><?php the_field('washington_job_title'); ?></div>
               <?php
               $excerpt = get_the_excerpt();
               $permalink = get_permalink();
-              $talks = get_field('session');
+              $talks = get_field('washington_session_relationship');
                 if ($talks): ?>
                     <?php foreach ($talks as $post): ?>
                       <?php setup_postdata($post); ?>
