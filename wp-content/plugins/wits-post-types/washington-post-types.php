@@ -89,19 +89,31 @@ add_action('init', 'register_washington_speaker_post_type');
 if(function_exists("register_field_group"))
 {
 	register_field_group(array (
-		'id' => 'acf_washington-speaker-fields',
-		'title' => 'Washington Speaker Fields',
+		'id' => 'acf_washington-speaker-field-group',
+		'title' => 'Washington Speaker Field Group',
 		'fields' => array (
 			array (
-				'key' => 'field_5773a58e7cb60',
-				'label' => 'keynote',
+				'key' => 'field_5773a670c6c68',
+				'label' => 'Keynote',
 				'name' => 'washington_keynote',
 				'type' => 'true_false',
 				'message' => '',
 				'default_value' => 0,
 			),
 			array (
-				'key' => 'field_5773a59d7cb61',
+				'key' => 'field_5773a67ec6c69',
+				'label' => 'Job Title',
+				'name' => 'washington_job_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5773a689c6c6a',
 				'label' => 'Twitter',
 				'name' => 'washington_twitter',
 				'type' => 'text',
@@ -113,21 +125,9 @@ if(function_exists("register_field_group"))
 				'maxlength' => '',
 			),
 			array (
-				'key' => 'field_5773a5b17cb62',
+				'key' => 'field_5773a692c6c6b',
 				'label' => 'Website',
 				'name' => 'washington_website',
-				'type' => 'text',
-				'default_value' => '',
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-				'formatting' => 'html',
-				'maxlength' => '',
-			),
-			array (
-				'key' => 'field_5773a5c57cb63',
-				'label' => 'Job Title',
-				'name' => 'washington_job_title',
 				'type' => 'text',
 				'default_value' => '',
 				'placeholder' => '',
@@ -142,7 +142,7 @@ if(function_exists("register_field_group"))
 				array (
 					'param' => 'post_type',
 					'operator' => '==',
-					'value' => 'post',
+					'value' => 'washington_speaker',
 					'order_no' => 0,
 					'group_no' => 0,
 				),
