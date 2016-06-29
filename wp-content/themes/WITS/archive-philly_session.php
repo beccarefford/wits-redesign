@@ -87,7 +87,7 @@ $current_post = $loop_sessions->current_post + 1;
               )
             )); ?>
 
-            <?php $pics = get_field('speaker_photo');
+            <?php $pics = get_field('philly_speaker_photo');
               if ($pics): ?>
                   <?php foreach ($pics as $post): ?>
                   <?php setup_postdata($post); ?>
@@ -105,7 +105,7 @@ $current_post = $loop_sessions->current_post + 1;
               <h3><a href="<?php the_permalink(); ?>">
               <?php echo the_title(); ?></a></h3>
               <div class="speaker-job-title">
-                <?php echo the_field('job_title'); ?>
+                <?php echo the_field('philly_job_title'); ?>
               </div>
               <?php wp_reset_postdata(); ?>
           </div>

@@ -17,7 +17,7 @@
       )
     )); ?>
 
-    <?php $pics = get_field('speaker_photo');
+    <?php $pics = get_field('philly_speaker_photo');
       if ($pics): ?>
         <?php foreach ($pics as $post): ?>
           <?php setup_postdata($post); ?>
