@@ -52,7 +52,7 @@
 		<?php
 wp_reset_postdata();
 $keynote = array(
-			'post_type' => 'speaker',
+			'post_type' => 'philly_speaker',
 			'orderby' => 'date',
 			'order' => 'DESC',
 			'key' => 'keynote',
@@ -64,7 +64,7 @@ $keynote = array(
 $myquery = new WP_Query($keynote);
 	if( $myquery->have_posts() ) :
 		while( $myquery->have_posts() ) : $myquery->the_post();
-			if (get_field('keynote')) { ?>
+			if (get_field('philly_keynote')) { ?>
 		<div class="col-md-6">
 			<div class="col-md-5">
 				<center>
