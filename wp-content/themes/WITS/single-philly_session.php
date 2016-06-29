@@ -30,7 +30,7 @@
     <div class="col-md-10 col-xs-8">
         <h2><?php echo the_title(); ?></h2></a>
       <div class="speaker-job-title">
-          <?php echo the_field('job_title'); ?>
+          <?php echo the_field('philly_job_title'); ?>
       <?php endforeach; ?>
     <?php endif; ?>
       <?php wp_reset_postdata(); ?>
