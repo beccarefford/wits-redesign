@@ -15,11 +15,11 @@
       <div class="col-md-10 col-xs-9">
         <a href="<?php the_permalink() ?>">
           <h3 class="name"><?php the_title(); ?></h3></a>
-          <div class="speaker-job-title"><?php the_field('job_title'); ?></div>
+          <div class="speaker-job-title"><?php the_field('philly_job_title'); ?></div>
           <?php
           $excerpt = get_the_excerpt();
           $permalink = get_permalink();
-          $talks = get_field('session');
+          $talks = get_field('philly_session');
             if ($talks): ?>
                 <?php foreach ($talks as $post): ?>
                   <?php setup_postdata($post); ?>
@@ -35,16 +35,12 @@
           <?php echo the_content(); ?>
 
           <center>
-            <br /><?php if( get_field('website') ): ?>
-            <a href="<?php the_field('website');?>"><i class="icon-globe icon-2x"></i></a>
+            <br /><?php if( get_field('philly_website') ): ?>
+            <a href="<?php the_field('philly_website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
-            <?php if( get_field('twitter') ): ?>
-              <a href="<?php the_field('twitter');?>"><i class="icon-twitter icon-2x"></i></a>
-            <?php endif; ?>
-
-            <?php if( get_field('facebook') ): ?>
-              <a href="<?php the_field('facebook');?>"><i class="icon-facebook icon-2x"></i></a>
+            <?php if( get_field('philly_twitter') ): ?>
+              <a href="<?php the_field('philly_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
         </div>
       </div>

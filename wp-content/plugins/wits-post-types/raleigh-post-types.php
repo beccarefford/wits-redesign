@@ -86,6 +86,79 @@ function register_raleigh_speaker_post_type()
 }
 add_action('init', 'register_raleigh_speaker_post_type');
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_raleigh-field-group',
+		'title' => 'Raleigh Field Group',
+		'fields' => array (
+			array (
+				'key' => 'field_5769a6fa24adf',
+				'label' => 'Keynote',
+				'name' => 'raleigh_keynote',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+			array (
+				'key' => 'field_5769a6e224ade',
+				'label' => 'Job Title',
+				'name' => 'raleigh_job_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5769a71624ae0',
+				'label' => 'Twitter',
+				'name' => 'raleigh_twitter',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5769a71e24ae1',
+				'label' => 'Website',
+				'name' => 'raleigh_website',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'raleigh_speaker',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
 
 /* REGISTER SPONSOR POST TYPE
 function register_raleigh_sponsor_post_type()

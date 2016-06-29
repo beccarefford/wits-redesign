@@ -86,6 +86,77 @@ function register_philly_speaker_post_type()
 }
 add_action('init', 'register_philly_speaker_post_type');
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_philly-speaker-fields',
+		'title' => 'Philly Speaker Fields',
+		'fields' => array (
+			array (
+				'key' => 'field_5769a17681553',
+				'label' => 'Keynote',
+				'name' => 'philly_keynote',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+			array (
+				'key' => 'field_5769a1df81554',
+				'label' => 'Job Title',
+				'name' => 'philly_job_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5769a22d81555',
+				'label' => 'Twitter',
+				'name' => 'philly_twitter',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5769a24581556',
+				'label' => 'Website',
+				'name' => 'philly_website',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'philly_speaker',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
 
 /* REGISTER SPONSOR POST TYPE
 function register_philly_sponsor_post_type()

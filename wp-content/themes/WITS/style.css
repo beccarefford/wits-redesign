@@ -117,7 +117,7 @@ a:link {
 }
 
 a:hover {
-	color: #f9aa35;
+	color: #9E1B42;
 	text-decoration: none;
 }
 
@@ -372,7 +372,7 @@ ul {
 	-ms-border-radius: 150px;
 	-o-border-radius: 150px;
 	border-radius: 150%;
-	border: 5px solid #F3860D;
+	border: 5px solid #9E1B42;
 	margin: 5% 5% 5% 5%;
 	display: inline-block;
 }
@@ -385,7 +385,7 @@ ul {
 	-ms-border-radius: 150px;
 	-o-border-radius: 150px;
 	border-radius: 150%;
-	border: 5px solid #d9d9d9;
+	border: 5px solid #9E1B42;
 	align: center;
 }
 
@@ -817,6 +817,7 @@ ul {
 
 h3.name {
 	margin-top:0;
+	color: #9E1B42;
 }
 
 .row .speaker {
