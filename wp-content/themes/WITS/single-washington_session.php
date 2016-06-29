@@ -7,7 +7,7 @@
   <div class="row">
     <div class="col-md-2 col-xs-4">
     <?php $pics = get_posts(array(
-      'post_type' => 'philly_session',
+      'post_type' => 'washington_session',
       'meta_query' => array(
         array(
           'key' => 'speaker_photo', // name of custom field
@@ -17,7 +17,7 @@
       )
     )); ?>
 
-    <?php $pics = get_field('speaker_photo');
+    <?php $pics = get_field('washington_speaker_photo');
       if ($pics): ?>
         <?php foreach ($pics as $post): ?>
           <?php setup_postdata($post); ?>
@@ -30,7 +30,7 @@
     <div class="col-md-10 col-xs-8">
         <h2><?php echo the_title(); ?></h2></a>
       <div class="speaker-job-title">
-          <?php echo the_field('job_title'); ?>
+          <?php echo the_field('washington_job_title'); ?>
       <?php endforeach; ?>
     <?php endif; ?>
       <?php wp_reset_postdata(); ?>
