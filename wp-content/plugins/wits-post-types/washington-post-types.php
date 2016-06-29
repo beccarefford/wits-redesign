@@ -86,6 +86,79 @@ function register_washington_speaker_post_type()
 }
 add_action('init', 'register_washington_speaker_post_type');
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_washington-speaker-fields',
+		'title' => 'Washington Speaker Fields',
+		'fields' => array (
+			array (
+				'key' => 'field_5773a58e7cb60',
+				'label' => 'keynote',
+				'name' => 'washington_keynote',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+			array (
+				'key' => 'field_5773a59d7cb61',
+				'label' => 'Twitter',
+				'name' => 'washington_twitter',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5773a5b17cb62',
+				'label' => 'Website',
+				'name' => 'washington_website',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5773a5c57cb63',
+				'label' => 'Job Title',
+				'name' => 'washington_job_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
 
 /* REGISTER SPONSOR POST TYPE
 function register_washington_sponsor_post_type()
