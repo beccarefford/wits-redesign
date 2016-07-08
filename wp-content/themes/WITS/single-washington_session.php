@@ -42,7 +42,7 @@
   <div class="row">
     <div class="col-md-12 col-xs-12">
       <?php echo the_content(); ?>
-      <br /><strong>Tags: </strong><?php the_terms($post->ID, 'tags'); ?>
+      <?php /* <br /><strong>Tags: </strong><?php the_terms($post->ID, 'tags'); ?>
 
       <?php //Display Location Category ?>
         <?php
@@ -61,18 +61,18 @@
         <br />
         <?php endif; ?>
 
-      <?php // Display formatted date ?>
+      <?php // Display formatted date */ ?>
 
       <?php $format = "F jS, Y";?>
-      <?php if( $datestamp = get_field('date') ): ?>
+      <?php if( $datestamp = get_field('washington_date') ): ?>
         <?php echo date_i18n( $format, $datestamp ); ?>
         <br />
         <?php endif; ?>
 
       <?php // Display formatted time ?>
       <?php $timeformat = "g:i A"; ?>
-      <?php $timeplushour = get_field('date') + 3600; ?>
-      <?php if( $timestamp = get_field('date') ): ?>
+      <?php $timeplushour = get_field('washington_date') + 3600; ?>
+      <?php if( $timestamp = get_field('washington_date') ): ?>
         <?php echo date_i18n( $timeformat, $timestamp ); ?> - <?php echo date_i18n($timeformat, $timeplushour); ?>
         <br />
       <?php endif; ?>

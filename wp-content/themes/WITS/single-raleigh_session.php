@@ -42,6 +42,7 @@
   <div class="row">
     <div class="col-md-12 col-xs-12">
       <?php echo the_content(); ?>
+      <?php /*
       <br /><strong>Tags: </strong><?php the_terms($post->ID, 'tags'); ?>
 
       <?php //Display Location Category ?>
@@ -59,20 +60,20 @@
         <br />
         <br />Location: <?php echo $location; ?>
         <br />
-        <?php endif; ?>
+        <?php endif; ?> */ ?>
 
       <?php // Display formatted date ?>
 
       <?php $format = "F jS, Y";?>
-      <?php if( $datestamp = get_field('date') ): ?>
+      <?php if( $datestamp = get_field('raleigh_date') ): ?>
         <?php echo date_i18n( $format, $datestamp ); ?>
         <br />
         <?php endif; ?>
 
       <?php // Display formatted time ?>
       <?php $timeformat = "g:i A"; ?>
-      <?php $timeplushour = get_field('date') + 3600; ?>
-      <?php if( $timestamp = get_field('date') ): ?>
+      <?php $timeplushour = get_field('raleigh_date') + 3600; ?>
+      <?php if( $timestamp = get_field('raleigh_date') ): ?>
         <?php echo date_i18n( $timeformat, $timestamp ); ?> - <?php echo date_i18n($timeformat, $timeplushour); ?>
         <br />
       <?php endif; ?>

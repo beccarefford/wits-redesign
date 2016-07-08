@@ -257,7 +257,54 @@ if(function_exists("register_field_group"))
 }
 
 
+if( function_exists('acf_add_local_field_group') ):
 
+acf_add_local_field_group(array (
+	'key' => 'group_577fe71bc37ed',
+	'title' => 'Date & Time Picker',
+	'fields' => array (
+		array (
+			'key' => 'field_577fe72c7413d',
+			'label' => 'Raleigh Date',
+			'name' => 'raleigh_date',
+			'type' => 'date_time_picker',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'show_date' => 'true',
+			'date_format' => 'yymmdd',
+			'time_format' => 'h:mm tt',
+			'show_week_number' => 'false',
+			'picker' => 'slider',
+			'save_as_timestamp' => 'true',
+			'get_as_timestamp' => 'true',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'raleigh_session',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
+endif;
 
 
 /* REGISTER SPONSOR POST TYPE

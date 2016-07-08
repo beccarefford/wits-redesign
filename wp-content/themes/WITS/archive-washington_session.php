@@ -37,7 +37,7 @@ $current_post = $loop_sessions->current_post + 1;
             <br />
             <a href="<?php echo the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 
-            <?php //Display Location Category ?>
+            <?php /* Display Location Category
               <?php
               $terms = get_the_terms( $post->ID, 'location' );
               if ( $terms && ! is_wp_error( $terms ) ) :
@@ -52,17 +52,17 @@ $current_post = $loop_sessions->current_post + 1;
               Location: <?php echo $location; ?><br />
               <?php endif; ?>
 
-            <?php // Display formatted date ?>
+            <?php // Display formatted date */ ?>
             <?php $format = "F jS, Y";?>
-            <?php if( $datestamp = get_field('date') ): ?>
+            <?php if( $datestamp = get_field('washington_date') ): ?>
               <?php echo date_i18n( $format, $datestamp ); ?>
               <br />
               <?php endif; ?>
 
             <?php // Display formatted time ?>
             <?php $timeformat = "g:i A"; ?>
-            <?php $timeplushour = get_field('date') + 3600; ?>
-            <?php if( $timestamp = get_field('date') ): ?>
+            <?php $timeplushour = get_field('washington_date') + 3600; ?>
+            <?php if( $timestamp = get_field('washington_date') ): ?>
               <?php echo date_i18n( $timeformat, $timestamp ) ?> - <?php echo date_i18n( $timeformat, $timeplushour); ?>
               <br />
               <br />
