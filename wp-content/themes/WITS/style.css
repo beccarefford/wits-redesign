@@ -3,7 +3,7 @@ Theme Name: WITS
 Theme URI: http://womenintechsummit.net/themes/WITS
 Author: Becca Refford
 Author URI: http://www.beccarefford.com
-Description: Child Theme for ETE 2016 based on Interface
+Description: Child Theme for WITS 2016 based on Interface
 Version: 1.0
 Template: interface
 -------------------------------------------------------------- */
@@ -13,6 +13,11 @@ Template: interface
 @import url("./styles/bootstrap-theme.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400&subset=latin);
+
+/* Footer Override */
+#site-generator {
+  background-color: #281F25!important;
+}
 
 /* Wrapper */
 .narrow-layout .wrapper {
@@ -58,11 +63,11 @@ body, input, textarea {
 
 h1, h2 {
 	font-family: "Montserrat", arial, sans-serif;
-	color: #098db3;
+	color: #9E1B42;
 }
 
 h1, h2 {
-	color: #098db3;
+	color: #9E1B42;
 	padding: 0px 0 15px 0;
 	font-weight: bold;
 }
@@ -112,7 +117,7 @@ h3.sponsor span {
 /* Links */
 
 a:link {
-	color: #F3860D;
+	color: #9E1B42;
 	text-decoration: none;
 }
 
@@ -372,7 +377,7 @@ ul {
 	-ms-border-radius: 150px;
 	-o-border-radius: 150px;
 	border-radius: 150%;
-	border: 5px solid #9E1B42;
+	border: 5px solid #d9d9d9;
 	margin: 5% 5% 5% 5%;
 	display: inline-block;
 }
@@ -892,7 +897,7 @@ h3.name {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 	font-size: 30px;
-	color: #666;
+	color: #281F25;
 	text-align: center;
 	background:none!important;
 	text-shadow: none;
