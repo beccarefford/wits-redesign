@@ -15,13 +15,6 @@
 							<!--<span class="sub">WHEN</span>-->
 							<span class="title"></span> <span class="desc">April 9, 2016</span>
 						</div>
-						<div>
-							<!--<span class="sub">WHERE</span>-->
-							<span class="title">Philadelphia, PA</span> <span class="desc"></span>
-						</div>
-						<div>
-							<a href="/session/" class="btn btn-primary btn-header">View the Sessions</a>
-						</div>
 					</div>
 				</div>
 			</div>

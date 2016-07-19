@@ -296,8 +296,7 @@ input[type="submit"] {
 }
 
 .page-title-wrap {
-	background: #9E1B42;
-	padding: 0;
+	display: none;
 }
 
 /* Search Form */
@@ -538,22 +537,38 @@ ul {
 	margin: 0;
 	text-align: center;
 	color: #fff;
-	background: transparent;
+	background: #9E1B42;
 	border-radius: 0;
-	height: 350px;
-	font-size: 30px;
+	height: 370px;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .landing h1 {
 	display: block;
-	font-size: 2em;
 	font-weight: 700;
 	line-height: 1;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	padding: 100px 0 20px 0;
+	padding: 90px 12% 0 12%;
 	margin: 0 0 20px;
 	height: 150px;
+  font-size: 80px;
+  color: #ffffff;
+	font-family: Montserrat, sans serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.landing-home h1 {
+	display: block;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	padding: 9% 6% 0 6%;
+	margin: 0 0 20px;
+	height: 150px;
+  font-size: 80px;
   color: #ffffff;
 	font-family: Montserrat, sans serif;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
@@ -632,6 +647,7 @@ ul {
 .landing .box .desc {
 	font-size: 35px;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  padding-top: 6%;
 }
 
 /* Headline */
@@ -993,6 +1009,21 @@ and (max-width : 430px) {
     height: 350px;
   }
 
+  .landing-home h1 {
+  	display: block;
+  	font-weight: 700;
+  	line-height: 1;
+  	letter-spacing: 0;
+  	text-transform: uppercase;
+  	padding: 15% 6% 15% 6%;
+  	margin: 0 0 20px;
+  	height: 150px;
+    font-size: 40px;
+    color: #ffffff;
+  	font-family: Montserrat, sans serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  }
+
 	.landing .box .title {
   	font-size: 30px;
   	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
@@ -1128,7 +1159,7 @@ and (max-width: 480px) {
 
 @media only screen
 and (min-width: 481px)
-and (max-width: 766px) {
+and (max-width: 779px) {
 
 	.sessions-list .day-floating {
 		font-size: 18px;
@@ -1168,11 +1199,11 @@ and (max-width: 766px) {
 		}
 
 	.landing h1 {
-    font-size: 50px;
+    font-size: 65px;
   	color: #fff;
   	display: block;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-    padding: 13% 10% 0 10%;
+    padding: 13% 8% 0 8%;
 	}
 
 	.heading .nav {
@@ -1199,19 +1230,24 @@ and (max-width: 766px) {
 
 }
 
-@media (min-width: 767px)
+@media (min-width: 780px)
        (max-width: 991px) {
+
     .speaker-one-up {
         border-bottom: 1px solid #dad9d9;
         margin: 0;
     }
 
     .landing h1 {
-      font-size: 70px;
+      font-size: 65px;
       color: #fff;
       display: block;
       text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-      padding: 13% 10% 0 10%;
+      padding: 13% 6% 0 6%;
+    }
+
+    .landing .box .desc {
+    	font-size: 30px;
     }
 
     .landing .lead {
@@ -1219,7 +1255,7 @@ and (max-width: 766px) {
       height: 60px;
     }
     .landing .box {
-      smargin: 30px auto;
+      margin: 30px auto;
     }
 }
 

@@ -10,15 +10,15 @@
 <?php get_header(); ?>
 
 	<section class="container banner">
-	<div class="landing" style="background-color:#9E1B42;">
-			<h1>Women In Tech Summit</h1>
+	<div class="landing" style="background-image:
+		url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-2.26.22-PM.png')">
+			<div class="landing-home">
+				<h1>The Women In Tech Summit</h1>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="box">
-						<div>
-							<!--<span class="sub">WHEN</span>-->
-							<span class="title"></span> <span class="desc">Inspire. Educate. Connect.</span>
-						</div>
+
 					</div>
 				</div>
 			</div>

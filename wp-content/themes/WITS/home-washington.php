@@ -4,29 +4,22 @@
 
 <?php get_header(); ?>
 
-	<section class="container banner">
-	<div class="landing" style="background-image:
-    url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Washington, DC</h1>
-					<div class="box">
-						<div>
-							<!--<span class="sub">WHEN</span>-->
-							<span class="title"></span> <span class="desc">April 9, 2016</span>
-						</div>
-						<div>
-							<!--<span class="sub">WHERE</span>-->
-							<span class="title">Washington, DC</span> <span class="desc"></span>
-						</div>
-						<div>
-							<a href="/session/" class="btn btn-primary btn-header">View the Sessions</a>
-						</div>
+<section class="container banner">
+<div class="landing" style="background-image:
+	url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
+		<h1>Washington DC</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="box">
+					<div>
+						<!--<span class="sub">WHEN</span>-->
+						<span class="title"></span> <span class="desc">April 9, 2016</span>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
 	<section class="container headline">
 		<div class="row">
