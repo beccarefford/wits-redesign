@@ -6,17 +6,9 @@
 
 	<section class="container banner">
 	<div class="landing" style="background-image:
-    url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
-			<h1>Philadelphia</h1>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="box">
-						<div>
-							<!--<span class="sub">WHEN</span>-->
-							<span class="title"></span> <span class="desc">April 9, 2016</span>
-						</div>
-					</div>
-				</div>
+    url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-3.09.44-PM.png')">
+			<div class="landing-home">
+				<h1>Philadelphia</h1>
 			</div>
 		</div>
 	</section>
@@ -24,20 +16,11 @@
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
-				<h2>Inspire. Educate. Connect.</h2>
-				<p>The Women in Tech Summit inspires, educates and connects
-					women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
-				workshops; information and discussions about careers in tech and
-				how to pursue them; and connection and networking opportunities with
-				other women in various aspects and careers in technology.</p>
 			</div>
 			<div class="col-md-5">
-				<a target="_blank" href="http://chariotsolutions.com">
-				<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
-			alt="Presented by Chariot Solutions" /></a>
 			</div>
 		</div>
-        </section>
+  </section>
 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>

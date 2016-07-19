@@ -15,34 +15,11 @@
 			<div class="landing-home">
 				<h1>The Women In Tech Summit</h1>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="box">
-
-					</div>
-				</div>
-			</div>
-		</div>
+	</div>
 	</section>
 
 	<section class="container headline">
-		<div class="row">
-			<div class="col-md-7">
-				<h2>Inspire. Educate. Connect.</h2>
-				<p>The Women in Tech Summit inspires, educates and connects
-					women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
-				workshops; information and discussions about careers in tech and
-				how to pursue them; and connection and networking opportunities with
-				other women in various aspects and careers in technology.</p>
-			</div>
-			<div class="col-md-5">
-				<br />
-				<a target="_blank" href="http://chariotsolutions.com">
-				<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
-			alt="Presented by Chariot Solutions" /></a>
-			</div>
-		</div>
-        </section>
+  </section>
 
 <?php /*
 
