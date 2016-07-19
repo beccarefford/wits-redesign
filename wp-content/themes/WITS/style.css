@@ -448,7 +448,7 @@ ul {
 }
 
 .banner {
-        height: 521px;
+  height: 350px;
 }
 
 .landing {
@@ -540,7 +540,7 @@ ul {
 	color: #fff;
 	background: transparent;
 	border-radius: 0;
-	height: 521px!important;
+	height: 350px;
 	font-size: 30px;
 }
 
@@ -551,10 +551,12 @@ ul {
 	line-height: 1;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	padding: 35px 0 20px 0;
+	padding: 100px 0 20px 0;
 	margin: 0 0 20px;
 	height: 150px;
+  color: #ffffff;
 	font-family: Montserrat, sans serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
 .landing h1 > span {
@@ -563,8 +565,10 @@ ul {
 }
 
 .landing p {
-	color: #333;
+	color: #fff;
 	font-family: Montserrat, sans serif;
+  padding: 60px 0 60px 0;
+
 }
 
 .landing .btn {
@@ -971,10 +975,6 @@ and (max-width : 430px) {
 		width: 250px;
 	}
 
-	.sessions-list .day-floating {
-		font-size: 15px;
-	}
-
 	.menu-toggle {
 			display: block;
 			background-color: rgba(0, 0, 0, 0);
@@ -989,26 +989,36 @@ and (max-width : 430px) {
 			cursor: pointer;
 		}
 
+  .landing {
+    height: 350px;
+  }
+
 	.landing .box .title {
-	font-size: 20px;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  	font-size: 30px;
+  	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 	}
 
 	.landing .box .desc {
-	font-size: 20px;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-	}
-
-	.heading h1 {
-	font-size: 24px;
-	margin:0 0 20px 0;
+  	font-size: 20px;
+  	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    padding-top: 5%;
 	}
 
 	.landing h1 {
-	color: #333;
-	font-family: Montserrat, sans serif;
-	font-size: 20px;
+  	color: #fff;
+  	font-family: Montserrat, sans serif;
+  	font-size: 40px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 	}
+
+  .heading h1 {
+    font-size: 24px;
+    margin:0 0 20px 0;
+  }
+
+  .sessions-list .day-floating {
+    font-size: 15px;
+  }
 
   .speaker-one-up {
     border-bottom: 1px solid #dad9d9;
@@ -1016,19 +1026,11 @@ and (max-width : 430px) {
    }
 
 	.speaker-two-up {
-	border-bottom: none;
-	}
-
-	.landing p {
-	color: #333;
-	text-transform: none;
-	height: 40px;
-	font-size: 20px;
-	padding: 80px 0 0 0;
+	   border-bottom: none;
 	}
 
 	.landing .btn {
-	width: 70%!important;
+	   width: 70%!important;
 	}
 
 	.scroll-to-top img,
@@ -1039,34 +1041,29 @@ and (max-width : 430px) {
 	.carousel-indicators {
 	display:none!important;
 	}
-
 }
 
 @media only screen
 and (min-width: 431px)
 and (max-width: 480px) {
 
-	.sessions-list .day-floating {
-		font-size: 15px;
-	}
+  #site-logo {
+    margin: 0px 0 12px 0;
+    max-width: 265px;
+  }
+
+  #site-title a img {
+    max-width: 265px;
+  }
 
 	.landing {
-	height: 480px;
+	height: 360px;
 	}
 
 	.landing .bg {
 	background: url('http://35dddumuqm3bnp65td2z5128.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/Philadelphia-Skyline-ETE.jpg')!important;
 	width: 100%;
 	height: 460px;
-	}
-
-	#site-logo {
-		margin: 0px 0 12px 0;
-		max-width: 265px;
-	}
-
-	#site-title a img {
-		max-width: 265px;
 	}
 
 	.menu-toggle {
@@ -1084,25 +1081,14 @@ and (max-width: 480px) {
 	}
 
 	.landing h1 {
-	font-size: 30px;
-	line-height: 65px!important;
-	/* margin-bottom: 10px!important; */
-	padding: 20px 0 20px 0;
-	color: #333;
+	font-size: 50px;
+	color: #fff;
 	display: block;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 	}
 
 	.heading .nav {
 	display:none;
-	}
-
-	.landing p {
-	font-size: 25px;
-	font-weight: normal;
-	height: 50px;
-	max-height: 15px;
-	padding: 50px 0 0 0;
-	display: block;
 	}
 
 	.landing .box .title {
@@ -1110,13 +1096,18 @@ and (max-width: 480px) {
 	}
 
 	.landing .box .desc {
-	font-size: 30px;
+	font-size: 26px;
+  padding-top: 10%;
 	}
 
 	.mediabox-wrapper .btn-group-header {
 	top: 46px;
 	margin-bottom: 0;
 	}
+
+  .sessions-list .day-floating {
+    font-size: 15px;
+  }
 
   .speaker-one-up {
     border-bottom: 1px solid #dad9d9;
@@ -1144,7 +1135,7 @@ and (max-width: 766px) {
 	}
 
 	.landing {
-	height: 480px;
+	height: 360px;
 	}
 
 	.landing .bg {
@@ -1177,31 +1168,19 @@ and (max-width: 766px) {
 		}
 
 	.landing h1 {
-	height: 100px;
-	font-size: 65px;
-	line-height: 65px!important;
-	/* margin-bottom: 10px!important; */
-	padding: 20px 0 20px 0;
+    font-size: 50px;
+  	color: #fff;
+  	display: block;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    padding: 13% 10% 0 10%;
 	}
 
 	.heading .nav {
 	display:none;
 	}
 
-
-
-
 	.speaker-two-up {
 	border-bottom: none;
-	}
-
-	.landing p {
-	font-size: 28px;
-	font-weight: normal;
-	height: 50px;
-	max-height: 50px;
-	margin: 90px 0 0 0;
-	padding: 0 20px 0 20px;
 	}
 
 	.landing .box .title {
@@ -1210,6 +1189,7 @@ and (max-width: 766px) {
 
 	.landing .box .desc {
 	font-size: 30px;
+  padding-top: 8%;
 	}
 
 	.mediabox-wrapper .btn-group-header {
@@ -1219,78 +1199,19 @@ and (max-width: 766px) {
 
 }
 
-@media (max-width: 767px) {
-
-	.lead {
-	margin-bottom: 0px;
-	font-size: 16px;
-	font-weight: 200;
-	line-height: 1.4;
-	}
-
-	.landing h1 {
-	font-size: 80px;
-	margin:0 0 50px 0;
-	padding: 60px 0 20px 0;
-	height: 100px;
-	}
-
-	.landing h1 > span {
-	display: block;
-	height: 160px;
-	max-height: 160px;
-	}
-
-	.landing .lead {
-	font-size: 35px;
-	font-weight: normal;
-	margin: 0;
-	}
-
-    .speaker-one-up {
-        border-bottom: 1px solid #dad9d9;
-        margin: 0;
-    }
-
-	.speaker-two-up {
-	border-bottom: none;
-	}
-
-	.landing .box {
-	margin: 0 auto;
-	padding: 30px 0 0 0;
-	}
-
-	.landing .btn {
-	width: 50%!important;
-	}
-
-	.scroll-to-top img,
-	.scroll-to-bottom img{
-	display: none!important;
-	}
-
-	.speakers .speaker {
-	width: 100%;
-	float: left;
-	/* max-width: 307px; */
-	}
-
-	.carousel-indicators {
-	display:none!important;
-	}
-
-}
-
-@media (max-width: 991px) {
+@media (min-width: 767px)
+       (max-width: 991px) {
     .speaker-one-up {
         border-bottom: 1px solid #dad9d9;
         margin: 0;
     }
 
     .landing h1 {
-      font-size: 60px;
-      padding-top: 68px;
+      font-size: 70px;
+      color: #fff;
+      display: block;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+      padding: 13% 10% 0 10%;
     }
 
     .landing .lead {
@@ -1625,7 +1546,7 @@ and (max-width: 766px) {
 	 		display: none;
 	 	}
 	 	#site-logo {
-	 		float:right;
+	 		float:left;
 	 		margin: 10px 0 12px 0;
 	 		max-width: 265px;
 	 	}

@@ -7,9 +7,9 @@
 	<section class="container banner">
 	<div class="landing" style="background-image:
     url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
+			<h1>Philadelphia</h1>
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Philadelphia</h1>
 					<div class="box">
 						<div>
 							<!--<span class="sub">WHEN</span>-->

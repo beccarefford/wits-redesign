@@ -10,23 +10,14 @@
 <?php get_header(); ?>
 
 	<section class="container banner">
-	<div class="landing" style="background-image:
-    url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
+	<div class="landing" style="background-color:#9E1B42;">
 			<h1>Women In Tech Summit</h1>
-			<p>Inspire. Educate. Connect.</p>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="box">
 						<div>
 							<!--<span class="sub">WHEN</span>-->
-							<span class="title"></span> <span class="desc">April 11 - 12, 2016</span>
-						</div>
-						<div>
-							<!--<span class="sub">WHERE</span>-->
-							<span class="title">Philadelphia, PA</span> <span class="desc"></span>
-						</div>
-						<div>
-							<a href="/session/" class="btn btn-primary btn-header">View the Sessions</a>
+							<span class="title"></span> <span class="desc">Inspire. Educate. Connect.</span>
 						</div>
 					</div>
 				</div>
