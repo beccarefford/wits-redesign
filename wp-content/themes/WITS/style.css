@@ -26,7 +26,7 @@ Template: interface
 
 /* Footer Override */
 #site-generator {
-  background-color: #9E1B42!important;
+  background-color: #281F25!important;
 }
 
 #pg-6-0 .panel-grid-cell, #pg-6-1 .panel-grid-cell, #pg-6-2 .panel-grid-cell, #pg-6-4 .panel-grid-cell, #pg-6-5 .panel-grid-cell {
@@ -1218,6 +1218,7 @@ and (max-width: 779px) {
   .home .row .col-md-3 {
     margin: -30px;
   }
+
 
 	.sessions-list .day-floating {
 		font-size: 18px;
