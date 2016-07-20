@@ -11,7 +11,7 @@
 
 	<section class="container banner">
 	<div class="landing" style="background-image:
-		url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-2.26.22-PM.png')">
+		url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-20-at-11.33.49-AM.png')">
 			<div class="landing-home">
 				<h1>The Women In Tech Summit</h1>
 			</div>
