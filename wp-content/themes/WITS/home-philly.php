@@ -13,15 +13,7 @@
 		</div>
 	</section>
 
-	<section class="container headline">
-		<div class="row">
-			<div class="col-md-7">
-			</div>
-			<div class="col-md-5">
-			</div>
-		</div>
-  </section>
-
+<?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">

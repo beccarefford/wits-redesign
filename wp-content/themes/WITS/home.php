@@ -18,8 +18,45 @@
 	</div>
 	</section>
 
-	<section class="container headline">
-  </section>
+<div class="home">
+	<div class="row">
+	<div class="col-md-3">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #1D181C;" class="panel-widget-style">
+			<center>
+				<div class="state">l</div>
+				<h2><font style="color:#fff;">Philadelphia</font></h2>
+			</center>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #2A2329;" class="panel-widget-style">
+			<center>
+				<div class="state">a</div>
+				<h2><font style="color:#fff;">Raleigh</font></h2>
+			</center>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #3C323B;" class="panel-widget-style">
+			<center>
+				<div class="state">y</div>
+				<h2><font style="color:#fff;">Washington DC</font></h2>
+			</center>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #493D48;" class="panel-widget-style">
+			<center>
+				<div class="state">T</div>
+				<h2><font style="color:#fff;">Baltimore</font></h2>
+			</center>
+		</div>
+	</div>
+</div>
+</div>
 
 <?php /*
 
@@ -150,8 +187,24 @@ wp_reset_postdata(); ?>
 		<a href="/sponsors" class="btn btn-primary btn-header"> View All Sponsors </a>
 	</div>
 </div>
-<!-- End Sponsors -->
+<!-- End Sponsors --> */ ?>
 
-*/ ?>
+<section class="container headline">
+	<div class="row">
+		<div class="col-md-7">
+			<h2>Inspire. Educate. Connect.</h2>
+			<p>The Women in Tech Summit inspires, educates and connects
+				women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
+			workshops; information and discussions about careers in tech and
+			how to pursue them; and connection and networking opportunities with
+			other women in various aspects and careers in technology.</p>
+		</div>
+		<div class="col-md-5">
+			<a target="_blank" href="http://chariotsolutions.com">
+			<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
+		alt="Presented by Chariot Solutions" /></a>
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>
