@@ -140,7 +140,7 @@ h3.sponsor {
 	border-bottom: 1px solid;
 	text-transform: uppercase;
 	margin: 3em 0 1em;
-	color: #ea9316;
+	color: #9E1B42;
 }
 
 h3.sponsor span {
@@ -149,7 +149,7 @@ h3.sponsor span {
 	padding-right: 1px;
 	display: inline-block;
 	background: #fff;
-	color: #ea9316;
+	color: #9E1B42;
 }
 
 /* Links */
@@ -547,7 +547,7 @@ ul {
 /* Buttons - bootstrap override*/
 .btn-primary {
 	color: #fff!important;
-	background: #f29d20!important;
+	background: #9E1B42!important;
 	border: none;
 	padding: 12px 30px;
 	text-transform: uppercase;
@@ -555,12 +555,12 @@ ul {
 
 .btn-primary:focus, .btn-primary.focus {
 	color: #fff;
-	background-color: #f9aa35!important;
+	background-color:#9E1B42!important;
 }
 
 .btn-primary:hover {
 	color: #fff;
-	background: #f9aa35!important;
+	background: #9E1B42!important;
 }
 
 /* Various Bootstrap Elements */
@@ -1035,6 +1035,8 @@ and (max-width : 430px) {
 
   h2 {
     text-align: center!important;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
 	.menu-toggle {

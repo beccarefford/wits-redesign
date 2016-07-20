@@ -141,6 +141,6 @@ wp_reset_postdata(); ?>
 		<a href="/sponsors" class="btn btn-primary btn-header"> View All Sponsors </a>
 	</div>
 </div>
-<!-- End Sponsors -->
+<!-- End Sponsors --> */ ?>
 
 <?php get_footer(); ?>

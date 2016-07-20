@@ -200,9 +200,7 @@ wp_reset_postdata(); ?>
 			other women in various aspects and careers in technology.</p>
 		</div>
 		<div class="col-md-5">
-			<a target="_blank" href="http://chariotsolutions.com">
-			<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
-		alt="Presented by Chariot Solutions" /></a>
+			&nbsp;
 		</div>
 	</div>
 </section>
