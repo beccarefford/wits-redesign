@@ -1017,7 +1017,7 @@ h3.name {
 /* BEGIN MEDIA QUERIES */
 
 @media only screen
-and (min-width : 300px)
+and (min-width : 200px)
 and (max-width : 430px) {
 
   .row .col-md-3 {
