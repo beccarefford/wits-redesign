@@ -21,7 +21,10 @@
 <div class="home">
 	<div class="row">
 	<div class="col-md-3">
-		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #1D181C;" class="panel-widget-style">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
+		min-height: 260px;background-color: #1D181C;" class="panel-widget-style"
+		onmouseover="this.style.background='#9E1B42';"
+		onmouseout="this.style.background='#1D181C';">
 			<center>
 				<div class="state">l</div>
 				<h2><font style="color:#fff;">Philadelphia</font></h2>
@@ -30,7 +33,10 @@
 	</div>
 
 	<div class="col-md-3">
-		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #2A2329;" class="panel-widget-style">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
+		min-height: 260px;background-color: #2A2329;" class="panel-widget-style"
+		onmouseover="this.style.background='#9E1B42';"
+		onmouseout="this.style.background='#2A2329';">
 			<center>
 				<div class="state">a</div>
 				<h2><font style="color:#fff;">Raleigh</font></h2>
@@ -39,7 +45,10 @@
 	</div>
 
 	<div class="col-md-3">
-		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #3C323B;" class="panel-widget-style">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
+		min-height: 260px;background-color: #3C323B;" class="panel-widget-style"
+		onmouseover="this.style.background='#9E1B42';"
+		onmouseout="this.style.background='#3C323B';">
 			<center>
 				<div class="state">y</div>
 				<h2><font style="color:#fff;">Washington DC</font></h2>
@@ -48,7 +57,10 @@
 	</div>
 
 	<div class="col-md-3">
-		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);min-height: 260px;background-color: #493D48;" class="panel-widget-style">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
+		min-height: 260px;background-color: #493D48;" class="panel-widget-style"
+		onmouseover="this.style.background='#9E1B42';"
+		onmouseout="this.style.background='#493D48';">
 			<center>
 				<div class="state">T</div>
 				<h2><font style="color:#fff;">Baltimore</font></h2>
