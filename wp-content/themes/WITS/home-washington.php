@@ -6,21 +6,14 @@
 
 <section class="container banner">
 <div class="landing" style="background-image:
-	url('/wp-content/uploads/2015/11/Philadelphia-Skyline-ETE.jpg')">
-		<h1>Washington DC</h1>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="box">
-					<div>
-						<!--<span class="sub">WHEN</span>-->
-						<span class="title"></span> <span class="desc">April 9, 2016</span>
-					</div>
-				</div>
-			</div>
+	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.26.54-AM.png')">
+		<div class="landing-home">
+			<h1>Washington D.C.</h1>
 		</div>
 	</div>
 </section>
 
+&nbsp;
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
@@ -32,12 +25,10 @@
 				other women in various aspects and careers in technology.</p>
 			</div>
 			<div class="col-md-5">
-				<a target="_blank" href="http://chariotsolutions.com">
-				<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/chariot-presented-by.jpg"
-			alt="Presented by Chariot Solutions" /></a>
+				&nbsp;
 			</div>
 		</div>
-        </section>
+</section>
 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
@@ -142,7 +133,7 @@ wp_reset_postdata(); ?>
 
 
 
-<!-- Start Sponsors -->
+<?php /* <!-- Start Sponsors -->
 <div id="tile_sponsors" class="container widget">
 	<h2><a href="/sponsor">Sponsors</a></h2>
 	<a href="/sponsor" class="btn btn-primary btn-header pull-right hidden-xs"> View All Sponsors </a> <br/>
@@ -166,6 +157,6 @@ wp_reset_postdata(); ?>
 		<a href="/sponsors" class="btn btn-primary btn-header"> View All Sponsors </a>
 	</div>
 </div>
-<!-- End Sponsors -->
+<!-- End Sponsors --> */ ?>
 
 <?php get_footer(); ?>
