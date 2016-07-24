@@ -63,6 +63,7 @@
 	</div>
 
 	<div class="col-md-3">
+		<a href="/become-a-sponsor">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
 		min-height: 260px;background-color: #493D48;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
@@ -72,6 +73,7 @@
 				<h2><font style="color:#fff;">Sponsor</font></h2>
 			</center>
 		</div>
+		</a>
 	</div>
 </div>
 </div>
