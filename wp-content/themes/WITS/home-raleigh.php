@@ -13,10 +13,11 @@
 	</div>
 </section>
 
-&nbsp; 
+&nbsp;
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
+				&nbsp;
 				<h2>Inspire. Educate. Connect.</h2>
 				<p>The Women in Tech Summit inspires, educates and connects
 					women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
@@ -26,9 +27,22 @@
 			</div>
 			<div class="col-md-5">
 				&nbsp;
+				<h2>Event Details</h2>
+				<p><strong>Date:</strong> October 1, 2016
+				<br /><strong>Venue: </strong>Frontier at Research Triangle Park
+				<br />800 Park Offices Dr, Research Triangle Park
+				<br />North Carolina, 27709
 			</div>
 		</div>
-        </section>
+
+<div class="row">
+	<div class="col-md-12">
+		<script src="https://www.universe.com/embed.js" type="text/javascript"></script>
+		<iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/566ec4e0294096c0b50012ba?buttonBackground=ff4776&amp;buttonColor=ffffff&amp;buyTicketsText=Buy Tickets" width="300" height="150" frameborder="0"></iframe>
+	</div>
+</div>
+
+	</section>
 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
