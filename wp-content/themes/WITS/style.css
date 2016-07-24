@@ -238,6 +238,7 @@ a:hover {
 	background-color: #ffffff;
 	display: block;
 	width: 100%;
+  border-bottom: none!important;
 }
 
 /* Menu */
