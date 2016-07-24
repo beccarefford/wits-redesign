@@ -44,7 +44,14 @@
 		<div class="container clearfix">
 			<!-- .social-profiles -->
 			<div class="copyright">
-				Copyright © 2016 <a href="http://chariotsolutions.com" target="_blank" title="Chariot Solutions"><span>Chariot Solutions</span></a>
+				<center>Copyright © 2016 Women in Tech Summit
+					<br />Made with &hearts; by <a href="http://chariotsolutions.com"
+					target="_blank" title="Chariot Solutions">
+					<span>Chariot Solutions</span></a>
+						<br /><a target="_blank" href="http://www.twitter.com/WomenTechSummit">
+							<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+						<a target="_blank" href="http://www.facebook.com/WomenInTechSummit">
+							<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
 			</div>
 			<!-- .copyright -->
 		</div>

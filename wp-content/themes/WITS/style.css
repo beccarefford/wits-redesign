@@ -57,9 +57,19 @@ Template: interface
   padding: 40px 0 40px 0;
 }
 
-i {
+.home i {
   color: #fff;
   padding: 10px 0 20px 0;
+}
+
+.copyright a i {
+  padding: 15px 5px 0px 5px;
+  color: inherit;
+}
+
+.copyright a i:hover {
+  padding: 15px 5px 0px 5px;
+  color: #fff;
 }
 
 /* Wrapper */

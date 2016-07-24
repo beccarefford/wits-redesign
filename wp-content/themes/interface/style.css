@@ -457,7 +457,7 @@ img {
 img.size-full,
 img.size-large {
 	max-width: 100%;
-	height: auto; 
+	height: auto;
 }
 .entry-content img.wp-smiley {
 	border: none;
@@ -1803,7 +1803,7 @@ ul.default-wp-page li {
 	padding-bottom: 7px;
 }
 ul.default-wp-page li.previous {
-	float:left;	
+	float:left;
 }
 ul.default-wp-page li.next {
 	float:right;
@@ -2029,7 +2029,7 @@ div.bbp-search-form button {
 .widget_tag_cloud a {
 	margin-right: 5px;
 	color: #777;
-	padding: 10px 0; 
+	padding: 10px 0;
 }
 .widget_tag_cloud a:hover {
 	color: #63C6AE;
@@ -2282,7 +2282,7 @@ div.bbp-search-form button {
 #site-generator .copyright {
 	float: left;
 	padding-top: 2px;
-	width: 65.64%;
+	width: 100%;
 }
 #site-generator .copyright a {
 	color: #888;
