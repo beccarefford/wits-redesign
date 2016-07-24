@@ -5,6 +5,11 @@ function theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
+function prefix_enqueue_awesome() {
+	wp_enqueue_style( 'prefix-font-awesome', '/wp-content/themes/font-awesome-4.6.3/css/font-awesome.min.css', array(), '4.6.3' );
+}
+add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
+
 
 function wpbootstrap_scripts_with_jquery()
 {

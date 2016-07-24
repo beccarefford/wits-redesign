@@ -68,8 +68,8 @@
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#493D48';">
 			<center>
-				<div class="state">T</div>
-				<h2><font style="color:#fff;">Baltimore</font></h2>
+				<i class="fa fa-gift fa-5x" aria-hidden="true"></i>
+				<h2><font style="color:#fff;">Sponsor</font></h2>
 			</center>
 		</div>
 	</div>
