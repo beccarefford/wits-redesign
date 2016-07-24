@@ -13,6 +13,29 @@
 		</div>
 	</section>
 
+	&nbsp;
+		<section class="container headline">
+			<div class="row">
+				<div class="col-md-7">
+					&nbsp;
+					<h2>Inspire. Educate. Connect.</h2>
+					<p>The Women in Tech Summit inspires, educates and connects
+						women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
+					workshops; information and discussions about careers in tech and
+					how to pursue them; and connection and networking opportunities with
+					other women in various aspects and careers in technology.</p>
+				</div>
+				<div class="col-md-5">
+					&nbsp;
+					<h2>Event Details</h2>
+					<p><strong>This event has passed.</strong>
+					<br />Follow us on Twitter
+					<a target="_blank" href="http://www.twitter.com/womentechsummit">@WomenTechSummit</a>
+					for updates, announcements, and more! If you're not on Twitter, keep checking back here for next year's info.
+				</div>
+			</div>
+	</section>
+
 <?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
