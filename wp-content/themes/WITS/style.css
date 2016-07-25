@@ -641,7 +641,7 @@ ul {
 
 .btn-primary:hover {
 	color: #fff;
-	background: #333!important;
+	background: rgb(73, 61, 72)!important;
 }
 
 /* Various Bootstrap Elements */
