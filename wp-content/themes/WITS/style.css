@@ -628,7 +628,7 @@ ul {
 /* Buttons - bootstrap override*/
 .btn-primary {
 	color: #fff!important;
-	background: #9E1B42!important;
+	background: #888!important;
 	border: none;
 	padding: 12px 30px;
 	text-transform: uppercase;
@@ -636,12 +636,12 @@ ul {
 
 .btn-primary:focus, .btn-primary.focus {
 	color: #fff;
-	background-color:#9E1B42!important;
+	background-color:#333!important;
 }
 
 .btn-primary:hover {
 	color: #fff;
-	background: #9E1B42!important;
+	background: #333!important;
 }
 
 /* Various Bootstrap Elements */
