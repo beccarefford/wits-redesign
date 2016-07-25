@@ -52,6 +52,8 @@
 							<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 						<a target="_blank" href="http://www.facebook.com/WomenInTechSummit">
 							<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+						<a target-"_blank" href="https://www.instagram.com/womenintechsummit/">
+							<i class="fa fa-instagram fa-2x"></i></a>
 			</div>
 			<!-- .copyright -->
 		</div>
