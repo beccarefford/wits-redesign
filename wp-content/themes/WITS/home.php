@@ -9,7 +9,7 @@
 ?>
 <?php get_header(); ?>
 
-	<section class="container banner">
+	<section class="container banner-home">
 	<div class="landing" style="background-image:
 		url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-24-at-2.26.42-PM.png')">
 			<div class="landing-home">

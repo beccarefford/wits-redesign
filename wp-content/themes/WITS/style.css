@@ -57,6 +57,50 @@ Template: interface
   padding: 40px 0 40px 0;
 }
 
+.home-session {
+	background-color: #1D181C;
+	margin: none;
+	padding: 15px 0;
+	height: 90px;
+}
+
+.home-session h2 {
+	font-size: 20px;
+	letter-spacing: 0;
+	text-align: center;
+	font-family: Montserrat;
+	color: #ffffff;
+	text-transform:uppercase;
+  padding-top: 10px;
+}
+
+.home-speaker {
+	background-color: #3C323B;
+	margin: none;
+	padding: 15px 0;
+	height: 90px;
+}
+
+.home-speaker h2 {
+	font-size: 20px;
+	letter-spacing: 0;
+	text-align: center;
+	font-family: Montserrat;
+	color: #ffffff;
+	text-transform:uppercase;
+  padding-top: 10px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row .nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 .home i {
   color: #fff;
   padding: 10px 0 20px 0;
@@ -500,8 +544,12 @@ ul {
 	margin-bottom: 50px;
 }
 
-.banner {
+.banner-home {
   height: 350px;
+}
+
+.banner {
+  height: 300px;
 }
 
 .landing {

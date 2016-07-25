@@ -13,7 +13,24 @@
 	</div>
 </section>
 
-&nbsp;
+<div class="row nopadding">
+<a href="/raleigh_session">
+	<div class="col-md-6 nopadding">
+			<div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
+				<h2>View All Sessions</h2>
+			</div>
+	</div>
+</a>
+
+<a href="/raleigh_speaker">
+	<div class="col-md-6 nopadding">
+		<div style="max-height:70px;" class="home-speaker" onmouseover="this.style.background='#493D48';" onmouseout="this.style.background='#3C323B';">
+			<h2>View All Speakers</h2>
+		</div>
+	</div>
+</a>
+</div>
+
 	<section class="container headline">
 		<div class="row">
 			<div class="col-md-7">
