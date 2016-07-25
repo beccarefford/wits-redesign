@@ -8,7 +8,7 @@
 <div class="landing" style="background-image:
 	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.13.12-AM.png')">
 		<div class="landing-home">
-			<h1>Raleigh</h1>
+			<h1>Raleigh-Durham</h1>
 		</div>
 	</div>
 </section>
