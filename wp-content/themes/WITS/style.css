@@ -91,6 +91,23 @@ Template: interface
   padding-top: 10px;
 }
 
+.home-sponsor {
+	background-color: #493D48;
+	margin: none;
+	padding: 15px 0;
+	height: 90px;
+}
+
+.home-sponsor h2 {
+	font-size: 20px;
+	letter-spacing: 0;
+	text-align: center;
+	font-family: Montserrat;
+	color: #ffffff;
+	text-transform:uppercase;
+  padding-top: 10px;
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
