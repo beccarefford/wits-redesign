@@ -41,6 +41,7 @@
 
   <div class="row">
     <div class="col-md-12 col-xs-12">
+      <h2><?php echo the_title(); ?></h2>
       <?php echo the_content(); ?>
       <?php /* <br /><strong>Tags: </strong><?php the_terms($post->ID, 'tags'); ?>
 
