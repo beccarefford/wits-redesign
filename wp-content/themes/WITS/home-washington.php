@@ -45,10 +45,9 @@
 			<div class="col-md-5">
 				&nbsp;
 				<h2>Event Details</h2>
-				<p><strong>This event has passed.</strong>
-				<br />Follow us on Twitter
-				<a target="_blank" href="http://www.twitter.com/womentechsummit">@WomenTechSummit</a>
-				for updates, announcements, and more! If you're not on Twitter, keep checking back here for next year's info.
+				<p><strong>The 2016 event has passed.</strong>
+				<br /><a target="_blank" href="http://womenintechsummit.net/get-notified-about-upcoming-events/">Sign up for our mailing list</a>
+				for updates, announcements, and more!</p>
 			</div>
 		</div>
 </section>
