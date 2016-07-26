@@ -69,15 +69,14 @@ $current_post = $loop_sessions->current_post + 1;
             <?php endif; ?>
 
             <?php $excerpt = get_the_content();
-                    $permalink = get_permalink($post->ID); ?>
+                  $permalink = get_permalink($post->ID); ?>
               <p><?php echo wpse_custom_excerpts($excerpt, 100, $permalink); ?></p>
           </div>
         </div>
 
-        <div class="row session">
-          <div class="col-md-3 col-xs-3">
             <?php $pics = get_posts(array(
               'post_type' => 'session',
+              'posts_per_page' => 5,
               'meta_query' => array(
                 array(
                   'key' => 'speaker_photo', // name of custom field
@@ -89,29 +88,29 @@ $current_post = $loop_sessions->current_post + 1;
 
             <?php $pics = get_field('philly_speaker_photo');
               if ($pics): ?>
-                  <?php foreach ($pics as $post): ?>
+                <?php foreach ($pics as $post): ?>
                   <?php setup_postdata($post); ?>
+
+                  <div class="row session">
+                    <div class="col-md-3 col-xs-3">
                       <a href="<?php the_permalink(); ?>">
                         <div class="circular-image-archive">
                           <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
                         </div>
                       </a>
-                  <?php endforeach; ?>
-              <?php endif; ?>
+                    </div>
 
-          </div>
-
-            <div class="col-md-9 col-xs-9">
-              <h3><a href="<?php the_permalink(); ?>">
-              <?php echo the_title(); ?></a></h3>
-              <div class="speaker-job-title">
-                <?php echo the_field('philly_job_title'); ?>
+                  <div class="col-md-9 col-xs-9">
+                    <h3><a href="<?php the_permalink(); ?>">
+                    <?php echo the_title(); ?></a></h3>
+                    <div class="speaker-job-title">
+                      <?php echo the_field('philly_job_title'); ?>
+                    </div>
+                    <?php wp_reset_postdata(); ?>
+                </div>
               </div>
-              <?php wp_reset_postdata(); ?>
-          </div>
-
-        </div>
-
+            <?php endforeach; ?>
+            <?php endif; ?>
     </div>
 
     <?php if( $current_post % 2 == 0 ): ?>
