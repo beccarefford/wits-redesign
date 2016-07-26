@@ -668,13 +668,12 @@ ul {
 	font-weight: 700;
 	line-height: 1;
 	letter-spacing: 0;
-	text-transform: uppercase;
 	padding: 90px 12% 0 12%;
 	margin: 0 0 20px;
 	height: 150px;
   font-size: 80px;
   color: #ffffff;
-	font-family: Montserrat, sans serif;
+	font-family: Arial Narrow;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -683,13 +682,12 @@ ul {
 	font-weight: 700;
 	line-height: 1;
 	letter-spacing: 0;
-	text-transform: uppercase;
 	padding: 9% 6% 0 6%;
 	margin: 0 0 20px;
 	height: 150px;
   font-size: 80px;
   color: #ffffff;
-	font-family: Montserrat, sans serif;
+	font-family: Open Sans;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -1166,7 +1164,7 @@ and (max-width : 430px) {
 
 	.landing h1 {
   	color: #fff;
-  	font-family: Montserrat, sans serif;
+  	font-family: Arial Narrow;
   	font-size: 40px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 	}
