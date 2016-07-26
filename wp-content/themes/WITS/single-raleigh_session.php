@@ -47,7 +47,7 @@
   </div>
 
 <?php $pics = get_posts(array(
-  'post_type' => 'philly_session',
+  'post_type' => 'raleigh_session',
   'meta_query' => array(
     array(
       'key' => 'speaker_photo', // name of custom field
