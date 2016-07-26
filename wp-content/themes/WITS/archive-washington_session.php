@@ -74,53 +74,52 @@ $current_post = $loop_sessions->current_post + 1;
           </div>
         </div>
 
-        <div class="row session">
-          <div class="col-md-3 col-xs-3">
-            <?php $pics = get_posts(array(
-              'post_type' => 'session',
-              'meta_query' => array(
-                array(
-                  'key' => 'speaker_photo', // name of custom field
-                  'value' => '"' . get_the_ID() . '"', // matches exaclty "123", not just 123. This prevents a match for "1234"
-                  'compare' => 'LIKE'
-                )
-              )
-            )); ?>
+        <?php $pics = get_posts(array(
+          'post_type' => 'session',
+          'posts_per_page' => 5,
+          'meta_query' => array(
+            array(
+              'key' => 'speaker_photo', // name of custom field
+              'value' => '"' . get_the_ID() . '"', // matches exaclty "123", not just 123. This prevents a match for "1234"
+              'compare' => 'LIKE'
+            )
+          )
+        )); ?>
 
-            <?php $pics = get_field('washington_speaker_photo');
-              if ($pics): ?>
-                  <?php foreach ($pics as $post): ?>
-                  <?php setup_postdata($post); ?>
-                      <a href="<?php the_permalink(); ?>">
-                        <div class="circular-image-archive">
-                          <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
-                        </div>
-                      </a>
-                  <?php endforeach; ?>
-              <?php endif; ?>
+        <?php $pics = get_field('washington_speaker_photo');
+          if ($pics): ?>
+            <?php foreach ($pics as $post): ?>
+              <?php setup_postdata($post); ?>
 
+              <div class="row session">
+                <div class="col-md-3 col-xs-3">
+                  <a href="<?php the_permalink(); ?>">
+                    <div class="circular-image-archive">
+                      <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
+                    </div>
+                  </a>
+                </div>
+
+              <div class="col-md-9 col-xs-9">
+                <h3><a href="<?php the_permalink(); ?>">
+                <?php echo the_title(); ?></a></h3>
+                <div class="speaker-job-title">
+                  <?php echo the_field('washington_job_title'); ?>
+                </div>
+                <?php wp_reset_postdata(); ?>
+            </div>
           </div>
-
-            <div class="col-md-9 col-xs-9">
-              <h3><a href="<?php the_permalink(); ?>">
-              <?php echo the_title(); ?></a></h3>
-              <div class="speaker-job-title">
-                <?php echo the_field('washington_job_title'); ?>
-              </div>
-              <?php wp_reset_postdata(); ?>
-          </div>
-
-        </div>
-
-    </div>
-
-    <?php if( $current_post % 2 == 0 ): ?>
+        <?php endforeach; ?>
+        <?php endif; ?>
   </div>
-    <?php endif; ?>
+
+  <?php if( $current_post % 2 == 0 ): ?>
+  </div>
+  <?php endif; ?>
 
   <?php $current_post++;
-endwhile; ?>
+  endwhile; ?>
 
-</section>
+  </section>
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>
