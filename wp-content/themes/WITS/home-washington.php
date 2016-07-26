@@ -30,10 +30,10 @@
 	</div>
 </a>
 
-<a href="/become-a-sponsor">
+<a href="/washington-sponsors">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-sponsor" onmouseover="this.style.background='#635B63';" onmouseout="this.style.background='#493D48';">
-			<h2>Sponsor</h2>
+			<h2>View All Sponsors</h2>
 		</div>
 	</div>
 </a>
