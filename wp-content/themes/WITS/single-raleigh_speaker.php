@@ -36,11 +36,11 @@
 
           <center>
             <br /><?php if( get_field('raleigh_website') ): ?>
-            <a href="<?php the_field('raleigh_website');?>"><i class="icon-globe icon-2x"></i></a>
+            <a target="_blank" href="<?php the_field('raleigh_website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
             <?php if( get_field('raleigh_twitter') ): ?>
-              <a href="<?php the_field('raleigh_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+              <a target="_blank" href="<?php the_field('raleigh_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
 
         </div>

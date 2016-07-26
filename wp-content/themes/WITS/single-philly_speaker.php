@@ -36,11 +36,11 @@
 
           <center>
             <br /><?php if( get_field('philly_website') ): ?>
-            <a href="<?php the_field('philly_website');?>"><i class="icon-globe icon-2x"></i></a>
+            <a target="_blank" href="<?php the_field('philly_website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
             <?php if( get_field('philly_twitter') ): ?>
-              <a href="<?php the_field('philly_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+              <a target="_blank" href="<?php the_field('philly_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
         </div>
       </div>

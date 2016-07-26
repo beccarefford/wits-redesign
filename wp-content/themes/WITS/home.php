@@ -217,7 +217,9 @@ wp_reset_postdata(); ?>
 				women in the technology industry. Join us for a unique combination of deep-dive, hands-on tech
 			workshops; information and discussions about careers in tech and
 			how to pursue them; and connection and networking opportunities with
-			other women in various aspects and careers in technology. All profits generated
+			other women in various aspects and careers in technology.</p>
+
+			<p>All profits generated
 			from each event support the non-profit <strong><a target="_blank" href="http://www.techgirlz.org">TechGirlz.org</a></strong>
 			and its ongoing mission to inspire middle school girls
 			to explore the possibilities of technology to empower their

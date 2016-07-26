@@ -36,16 +36,13 @@
 
           <center>
             <br /><?php if( get_field('website') ): ?>
-            <a href="<?php the_field('website');?>"><i class="icon-globe icon-2x"></i></a>
+            <a target="_blank" href="<?php the_field('website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
             <?php if( get_field('twitter') ): ?>
-              <a href="<?php the_field('twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+              <a target="_blank" href="<?php the_field('twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
 
-            <?php if( get_field('facebook') ): ?>
-              <a href="<?php the_field('facebook');?>"><i class="icon-facebook icon-2x"></i></a>
-            <?php endif; ?>
         </div>
       </div>
 
