@@ -54,7 +54,7 @@
 				&nbsp;
 				<h2>Event Details</h2>
 				<p><strong>The 2016 event has passed.</strong>
-				<br /><a target="_blank" href="/get-notified-about-upcoming-events/">Sign up for our mailing list</a>
+				<br /><a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">Sign up for our mailing list</a>
 				for updates, announcements, and more!</p>
 			</div>
 		</div>

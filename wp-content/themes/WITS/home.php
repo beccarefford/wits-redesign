@@ -230,7 +230,7 @@ wp_reset_postdata(); ?>
 			<h2>Stay up-to-date with future events.</h2>
 			&nbsp;
 			<center>
-				<a target="_blank" href="/get-notified-about-upcoming-events/">
+				<a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
 					<div class="btn-primary">
 						Sign Up for our mailing list
 					</div>
