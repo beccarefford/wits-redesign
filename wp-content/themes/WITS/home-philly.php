@@ -9,6 +9,9 @@
     url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-3.09.44-PM.png')">
 			<div class="landing-home">
 				<h1>Philadelphia</h1>
+				<p>
+					Spring 2017
+				</p>
 			</div>
 		</div>
 	</section>

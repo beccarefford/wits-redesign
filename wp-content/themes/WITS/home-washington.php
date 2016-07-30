@@ -9,6 +9,9 @@
 	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.26.54-AM.png')">
 		<div class="landing-home">
 			<h1>Washington D.C.</h1>
+			<p>
+				Spring 2017
+			</p>
 		</div>
 	</div>
 </section>

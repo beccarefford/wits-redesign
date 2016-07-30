@@ -43,7 +43,7 @@
 		onmouseout="this.style.background='#2A2329';">
 			<center>
 				<div class="state">a</div>
-				<h2><font style="color:#fff;">Raleigh</font></h2>
+				<h2><font style="color:#fff;">Raleigh-Durham</font></h2>
 			</center>
 		</div>
 	</a>
