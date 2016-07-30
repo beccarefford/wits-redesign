@@ -14,6 +14,7 @@
 		url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-24-at-2.26.42-PM.png')">
 			<div class="landing-home">
 				<h1>The Women In Tech Summit</h1>
+				<p>Inspire. Educate. Connect.</p>
 			</div>
 	</div>
 	</section>

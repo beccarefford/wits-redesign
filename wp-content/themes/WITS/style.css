@@ -12,7 +12,7 @@ Template: interface
 @import url("./styles/bootstrap.css");
 @import url("./styles/bootstrap-theme.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400&subset=latin);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700|Source+Sans+Pro:400&subset=latin);
 @font-face {
     font-family: 'StateFaceRegular';
     src: url('/wp-content/themes/WITS/fonts/stateface-regular-webfont.eot');
@@ -664,31 +664,33 @@ ul {
 }
 
 .landing h1 {
+  font-size: 90px;
 	display: block;
-	font-weight: 700;
+	font-size: 65px;
+  font-family: 'Montserrat';
 	line-height: 1;
 	letter-spacing: 0;
-	padding: 90px 12% 0 12%;
-	margin: 0 0 20px;
-	height: 150px;
-  font-size: 80px;
-  color: #ffffff;
-	font-family: Arial Narrow;
+	text-align: center;
+	padding: 120px 0 0;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+	margin: 0 0 20px;
+  font-weight: 200;
+	height: 130px;
 }
 
 .landing-home h1 {
+	font-size: 90px;
 	display: block;
-	font-weight: 700;
+	font-size: 65px;
+  font-family: 'Montserrat';
 	line-height: 1;
 	letter-spacing: 0;
-	padding: 9% 6% 0 6%;
+	text-align: center;
+	padding: 120px 0 30px;
 	margin: 0 0 20px;
-	height: 150px;
-  font-size: 80px;
-  color: #ffffff;
-	font-family: Open Sans;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  font-weight: 200;
+	height: 130px;
+  color: #fff;
 }
 
 .landing h1 > span {
@@ -699,8 +701,10 @@ ul {
 .landing p {
 	color: #fff;
 	font-family: Montserrat, sans serif;
-  padding: 60px 0 60px 0;
-
+  font-size: 40px;
+  padding-top: 100px;
+  height:60px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
 .landing .btn {
@@ -1136,20 +1140,6 @@ and (max-width : 430px) {
     height: 350px;
   }
 
-  .landing-home h1 {
-  	display: block;
-  	font-weight: 700;
-  	line-height: 1;
-  	letter-spacing: 0;
-  	padding: 15% 6% 15% 6%;
-  	margin: 0 0 20px;
-  	height: 150px;
-    font-size: 40px;
-    color: #ffffff;
-  	font-family: Montserrat, sans serif;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-  }
-
 	.landing .box .title {
   	font-size: 30px;
   	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
@@ -1163,9 +1153,20 @@ and (max-width : 430px) {
 
 	.landing h1 {
   	color: #fff;
-  	font-family: Arial Narrow;
+  	font-family: 'Montserrat';
   	font-size: 40px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    padding: 20% 3% 0 3%;
+	}
+
+  .landing p {
+  	color: #fff;
+  	font-family: 'Montserrat';
+  	font-size: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    padding: 20% 3% 0 3%;
 	}
 
   .heading h1 {
@@ -1245,11 +1246,22 @@ and (max-width: 480px) {
 			cursor: pointer;
 	}
 
-	.landing h1 {
-	font-size: 50px;
-	color: #fff;
-	display: block;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  .landing h1 {
+  	color: #fff;
+  	font-family: 'Montserrat';
+  	font-size: 40px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    padding: 20% 3% 0 3%;
+	}
+
+  .landing p {
+  	color: #fff;
+  	font-family: 'Montserrat';
+  	font-size: 25px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    padding: 20% 3% 0 3%;
 	}
 
 	.heading .nav {
@@ -1341,13 +1353,23 @@ and (max-width: 779px) {
 			cursor: pointer;
 		}
 
-	.landing h1 {
-    font-size: 65px;
-  	color: #fff;
-  	display: block;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-    padding: 13% 8% 0 8%;
-	}
+    .landing h1 {
+    	color: #fff;
+    	font-family: 'Montserrat';
+    	font-size: 50px;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+      font-weight: 200;
+      padding: 15% 3% 0 3%;
+  	}
+
+    .landing p {
+    	color: #fff;
+    	font-family: 'Montserrat';
+    	font-size: 30px;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+      font-weight: 200;
+      padding: 15% 3% 0 3%;
+  	}
 
 	.heading .nav {
 	display:none;
@@ -1373,20 +1395,31 @@ and (max-width: 779px) {
 
 }
 
-@media (min-width: 780px)
-       (max-width: 991px) {
+@media only screen
+and (min-width: 780px)
+and (max-width: 991px) {
 
     .speaker-one-up {
         border-bottom: 1px solid #dad9d9;
         margin: 0;
     }
 
-    .landing h1 {
-      font-size: 65px;
+    .landing-home h1 {
       color: #fff;
-      display: block;
+      font-family: 'Montserrat';
+      font-size: 60px;
       text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-      padding: 13% 6% 0 6%;
+      font-weight: 200;
+      padding: 13% 3% 0 3%;
+    }
+
+    .landing-home p {
+      color: #fff;
+      font-family: 'Montserrat';
+      font-size: 30px;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+      font-weight: 200;
+      padding: 18% 3% 0 3%;
     }
 
     .landing .box .desc {
@@ -1403,6 +1436,7 @@ and (max-width: 779px) {
 }
 
 @media only screen and (max-width: 1078px) {
+
 	.container,
 	.narrow-layout .wrapper {
 		width: 708px;
