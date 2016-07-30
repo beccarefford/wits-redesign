@@ -9,6 +9,9 @@
 	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.13.12-AM.png')">
 		<div class="landing-home">
 			<h1>Raleigh-Durham</h1>
+			<p>
+				October 1, 2016
+			</p>
 		</div>
 	</div>
 </section>
@@ -62,6 +65,10 @@
 
 <div class="row">
 	<div class="col-md-12">
+		<center>
+			<h2>Register Today</h2>
+			&nbsp;
+		</center>
 		<script src="https://www.universe.com/embed.js" type="text/javascript"></script>
 		<iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/566ec4e0294096c0b50012ba?buttonBackground=ff4776&amp;buttonColor=ffffff&amp;buyTicketsText=Buy Tickets" width="300" height="150" frameborder="0"></iframe>
 	</div>
