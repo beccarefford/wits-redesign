@@ -20,7 +20,7 @@
 <a href="/washington_session">
 	<div class="col-md-4 nopadding">
 			<div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
-				<h2>View All Sessions</h2>
+				<h2>2016 Sessions</h2>
 			</div>
 	</div>
 </a>
@@ -28,7 +28,7 @@
 <a href="/washington_speaker">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-speaker" onmouseover="this.style.background='#493D48';" onmouseout="this.style.background='#3C323B';">
-			<h2>View All Speakers</h2>
+			<h2>2016 Speakers</h2>
 		</div>
 	</div>
 </a>
@@ -36,7 +36,7 @@
 <a href="/washington-sponsors">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-sponsor" onmouseover="this.style.background='#635B63';" onmouseout="this.style.background='#493D48';">
-			<h2>View All Sponsors</h2>
+			<h2>2016 Sponsors</h2>
 		</div>
 	</div>
 </a>

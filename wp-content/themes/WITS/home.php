@@ -24,12 +24,15 @@
 	<div class="col-md-3">
 		<a href="/philadelphia">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
-		min-height: 260px;background-color: #1D181C;" class="panel-widget-style"
+		min-height: 260px;max-height: 260px;background-color: #1D181C;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#1D181C';">
 			<center>
 				<div class="state">l</div>
 				<h2><font style="color:#fff;">Philadelphia</font></h2>
+				<p>
+					Spring 2017
+				</p>
 			</center>
 		</div>
 		</a>
@@ -38,12 +41,15 @@
 	<div class="col-md-3">
 		<a href="/raleigh">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
-		min-height: 260px;background-color: #2A2329;" class="panel-widget-style"
+		min-height: 260px; max-height: 260px; background-color: #2A2329;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#2A2329';">
 			<center>
 				<div class="state">a</div>
 				<h2><font style="color:#fff;">Raleigh-Durham</font></h2>
+				<p>
+					October 1, 2017
+				</p>
 			</center>
 		</div>
 	</a>
@@ -52,12 +58,15 @@
 	<div class="col-md-3">
 		<a href="/washington">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
-		min-height: 260px;max-height:260px;background-color: #3C323B;" class="panel-widget-style"
+		min-height: 260px; max-height: 260px;background-color: #3C323B;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#3C323B';">
 			<center>
 				<div class="state">y</div>
 				<h2><font style="color:#fff;">Washington DC</font></h2>
+				<p>
+					Spring 2017
+				</p>
 			</center>
 		</div>
 		</a>
@@ -66,12 +75,15 @@
 	<div class="col-md-3">
 		<a href="/become-a-sponsor">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
-		min-height: 260px;background-color: #493D48;" class="panel-widget-style"
+		min-height: 260px; max-height: 260px;background-color: #493D48;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#493D48';">
 			<center>
 				<i class="fa fa-gift fa-5x" aria-hidden="true"></i>
 				<h2><font style="color:#fff;">Sponsor</font></h2>
+				<p>
+					View Levels
+				</p>
 			</center>
 		</div>
 		</a>
