@@ -47,5 +47,4 @@ function pete_force_json_update($post_id) {
 }
 add_action('save_post', 'pete_force_json_update');
 
-
 ?>
