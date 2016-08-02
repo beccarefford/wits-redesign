@@ -110,12 +110,12 @@ Template: interface
 }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+   padding: 60px 0 0 0 !important;
+   margin: 60px 0 0 0 !important;
 }
 
 .row .nopadding {
-   padding: 70px 0 0 0 !important;
+   padding: 0 !important;
    margin: 0 !important;
 }
 
@@ -1105,7 +1105,7 @@ and (min-width : 200px)
 and (max-width : 430px) {
 
   .row .col-md-3 {
-    margin: -40px;
+    margin: 0px;
   }
 
 	#site-logo {
