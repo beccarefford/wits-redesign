@@ -1,10 +1,8 @@
-<?php get_header(); ?>
+<?php
 
-<div class="page-title-wrap">
-  <div class="container clearfix">
-    <h1 class="page-title">Sponsors</h1>
-  </div>
-</div>
+/** Template Name: Philly Sponsors */
+
+get_header(); ?>
 
 <section class="container">
 
@@ -18,7 +16,7 @@
         	'post_type' => 'philly_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
-        	'meta_key' => 'philly_sponsor_type',
+        	'meta_key' => 'philly_sponsor_level',
         	'meta_value' => 'Headline',
         	);
 
@@ -28,7 +26,7 @@ $myquery = new WP_Query($headline);
         $current_post = $myquery->current_post + 1; ?>
 
         <?php if($current_post == 1) { ?>
-          <h3 class="sponsor"><span>Headline / Sold Out</span></h3>
+          <h3 class="sponsor"><span>Headline</span></h3>
         <?php } ?>
         <div class="row">
           <div class="col-md-6 col-xs-12">
@@ -51,7 +49,7 @@ endif;
 
 <?php wp_reset_postdata(); ?>
 
-<?php // video query ?>
+<?php /*
 
   <?php $video = array(
         	'post_type' => 'sponsor',
@@ -414,4 +412,4 @@ endif;
 
 </section>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> */ ?>
