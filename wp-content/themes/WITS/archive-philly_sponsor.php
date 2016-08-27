@@ -15,10 +15,10 @@
         // begin with 'Headline'?>
 
   <?php $headline = array(
-        	'post_type' => 'sponsor',
+        	'post_type' => 'philly_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
-        	'meta_key' => 'sponsor_type',
+        	'meta_key' => 'philly_sponsor_type',
         	'meta_value' => 'Headline',
         	);
 
@@ -400,7 +400,7 @@ $myquery = new WP_Query($media);
           <div class="col-md-6 col-xs-12">
             <h3><?php the_title(); ?></h3>
               <?php echo the_content(); ?>
-              
+
           </div>
         </div>
       <hr />
