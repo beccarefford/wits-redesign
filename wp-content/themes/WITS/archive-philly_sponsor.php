@@ -30,15 +30,18 @@ $myquery = new WP_Query($headline);
         <?php } ?>
         <div class="row">
           <div class="col-md-6 col-xs-12">
-            <a target="_blank" href="<?php the_field('sponsor_url')?>">
+            <a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
               <?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
             </a>
           </div>
 
           <div class="col-md-6 col-xs-12">
             <h3><?php the_title(); ?></h3>
-              <?php echo the_content(); ?>
-
+              <br /><a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
+                <?php echo the_field('philly_sponsor_url'); ?></a>
+              <br /><?php if( get_field('philly_sponsor_twitter') ): ?>
+              <a href="<?php the_field('philly_sponsor_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+            <?php endif; ?>
           </div>
         </div>
       <hr />
