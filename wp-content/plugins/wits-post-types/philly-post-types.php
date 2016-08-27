@@ -371,5 +371,3 @@ function register_philly_sponsor_post_type()
     register_post_type("philly_sponsor", $args);
 }
 add_action('init', 'register_philly_sponsor_post_type');
-
-*/
