@@ -43,7 +43,7 @@ $myquery = new WP_Query($headline);
                 <?php echo the_field('philly_sponsor_url'); ?></a></li>
               <li><?php if( get_field('philly_sponsor_twitter') ): ?>
               <a href="<?php the_field('philly_sponsor_twitter');?>">
-              <?php echo the_field('philly_sponsor_url'); ?></a></li>
+              <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
             </ul>
             <?php endif; ?>
           </div>
@@ -87,7 +87,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -132,7 +132,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -176,7 +176,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -220,7 +220,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -264,7 +264,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -308,7 +308,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
@@ -352,7 +352,7 @@ if( $myquery->have_posts() ) :
               <?php echo the_field('philly_sponsor_url'); ?></a></li>
             <li><?php if( get_field('philly_sponsor_twitter') ): ?>
             <a href="<?php the_field('philly_sponsor_twitter');?>">
-            <?php echo the_field('philly_sponsor_url'); ?></a></li>
+            <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
           </ul>
           <?php endif; ?>
         </div>
