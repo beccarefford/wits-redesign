@@ -321,7 +321,19 @@ acf_add_local_field_group(array (
 
 endif;
 
-/* REGISTER SPONSOR POST TYPE
+add_action( 'init', 'create_year_taxonomy' );
+
+function create_year_taxonomy() {
+	register_taxonomy(
+		'year',
+		'philly_session',
+		array(
+			'label' => 'Year',
+			'hierarchical' => true,
+		)
+	);
+}
+
 function register_philly_sponsor_post_type()
 {
     $labels = array(
