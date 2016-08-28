@@ -12,6 +12,10 @@
 				<p>
 					Spring 2017
 				</p>
+
+				<div>
+						<a href="<?php the_field('philly_schedule_button_url')?>" class="btn btn-primary btn-header">View Schedule</a>
+				</div>
 			</div>
 		</div>
 	</section>
