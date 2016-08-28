@@ -638,7 +638,7 @@ ul {
 	color: #9E1B42!important;
 	background: #fff!important;
 	border: none;
-	margin-bottom: 50px;
+	margin-bottom: 13%;
 	text-transform: uppercase;
 }
 
@@ -650,6 +650,12 @@ ul {
 .btn-primary:hover {
 	color: #fff;
 	background: rgb(73, 61, 72)!important;
+}
+
+.box .btn-primary:hover {
+	color: #9E1B42!important;
+	background: #fff!important;
+	border: none;
 }
 
 /* Various Bootstrap Elements */
