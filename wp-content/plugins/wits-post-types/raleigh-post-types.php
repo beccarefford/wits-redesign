@@ -306,8 +306,6 @@ acf_add_local_field_group(array (
 
 endif;
 
-
-/* REGISTER SPONSOR POST TYPE
 function register_raleigh_sponsor_post_type()
 {
     $labels = array(
@@ -344,6 +342,4 @@ function register_raleigh_sponsor_post_type()
     );
     register_post_type("raleigh_sponsor", $args);
 }
-add_action('init', 'register_raleigh_sponsor_post_type');
-
-*/
+add_action('init', 'register_raleigh_sponsor_post_type'); ?>
