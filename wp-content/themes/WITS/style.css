@@ -635,10 +635,10 @@ ul {
 }
 
 .box .btn-primary {
-	color: #fff!important;
-	background: #888!important;
+	color: #9E1B42!important;
+	background: #fff!important;
 	border: none;
-	padding-bottom: 30px;
+	margin-bottom: 50px;
 	text-transform: uppercase;
 }
 
