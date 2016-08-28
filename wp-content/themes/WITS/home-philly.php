@@ -9,16 +9,16 @@
     url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-3.09.44-PM.png')">
 			<div class="landing-home">
 				<h1>Philadelphia</h1>
-				<p>
-					Spring 2017
-				</p>
-					<?php if( get_field('philly_schedule_button_url') ): ?>
-						<div>
-							<a href="<?php the_field('philly_schedule_button_url')?>"
-								class="btn btn-primary btn-header">View Schedule</a>
-						</div>
-					<?php endif; ?>
-					
+				<div class="col-md-12">
+					<div class="box">
+						<span class="desc">Spring 2017</span>
+						<?php if( get_field('philly_schedule_button_url') ): ?>
+							<div>
+								<a href="<?php the_field('philly_schedule_button_url')?>"
+									class="btn btn-primary btn-header">View Schedule</a>
+							</div>
+						<?php endif; ?>
+					</div>
 			</div>
 		</div>
 	</section>
