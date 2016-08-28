@@ -18,6 +18,7 @@
 								class="btn btn-primary btn-header">View Schedule</a>
 						</div>
 					<?php endif; ?>
+					
 			</div>
 		</div>
 	</section>
