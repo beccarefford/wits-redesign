@@ -9,9 +9,17 @@
 	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.26.54-AM.png')">
 		<div class="landing-home">
 			<h1>Washington D.C.</h1>
-			<p>
-				Spring 2017
-			</p>
+			<div class="col-md-12">
+				<div class="box">
+					<span class="desc">Spring 2017</span>
+					<?php if( get_field('washington_schedule_button_url') ): ?>
+						<div>
+							<a href="<?php the_field('washington_schedule_button_url')?>"
+								class="btn btn-primary btn-header">View Schedule</a>
+						</div>
+					<?php endif; ?>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

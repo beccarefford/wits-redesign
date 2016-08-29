@@ -9,9 +9,17 @@
 	url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-22-at-10.13.12-AM.png')">
 		<div class="landing-home">
 			<h1>Raleigh-Durham</h1>
-			<p>
-				October 1, 2016
-			</p>
+			<div class="col-md-12">
+				<div class="box">
+					<span class="desc">October 1, 2017</span>
+					<?php if( get_field('raleigh_schedule_button_url') ): ?>
+						<div>
+							<a href="<?php the_field('raleigh_schedule_button_url')?>"
+								class="btn btn-primary btn-header">View Schedule</a>
+						</div>
+					<?php endif; ?>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
