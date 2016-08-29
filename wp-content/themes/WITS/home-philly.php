@@ -199,12 +199,14 @@ wp_reset_postdata(); ?>
 		<a href="/sponsors" class="btn btn-primary btn-header"> View All Sponsors </a>
 	</div>
 </div>
-<!-- End Sponsors --> */ ?>
+<!-- End Sponsors -->
 
 <?php if( get_field('philly_schedule_button_url') ): ?>
 	<center>
 	<h2>None of this would be possible without our team of volunteers.</h2>
 		<a href="<?php the_field('philly_committee_url') ?>">Read more about them here.</a>
 <?php endif; ?>
+
+*/ ?>
 
 <?php get_footer(); ?>
