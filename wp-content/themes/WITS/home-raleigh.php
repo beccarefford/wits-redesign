@@ -14,7 +14,7 @@
 					<span class="desc">October 1, 2017</span>
 					<?php if( get_field('raleigh_schedule_button_url') ): ?>
 						<div>
-							<a target="_blank" href="<?php the_field('raleigh_schedule_button_url')?>"
+							<a target="blank" href="<?php the_field('raleigh_schedule_button_url')?>"
 								class="btn btn-primary btn-header">View Schedule</a>
 						</div>
 					<?php endif; ?>
