@@ -70,7 +70,6 @@
 				</div>
 			</div>
 	</section>
-
 <?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
@@ -208,5 +207,4 @@ wp_reset_postdata(); ?>
 <?php endif; ?>
 
 */ ?>
-
 <?php get_footer(); ?>
