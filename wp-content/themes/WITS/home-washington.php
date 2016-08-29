@@ -14,7 +14,7 @@
 					<span class="desc">Spring 2017</span>
 					<?php if( get_field('washington_schedule_button_url') ): ?>
 						<div>
-							<a href="<?php the_field('washington_schedule_button_url')?>"
+							<a target="_blank" href="<?php the_field('washington_schedule_button_url')?>"
 								class="btn btn-primary btn-header">View Schedule</a>
 						</div>
 					<?php endif; ?>
