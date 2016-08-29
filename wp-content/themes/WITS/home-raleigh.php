@@ -11,7 +11,7 @@
 			<h1>Raleigh-Durham</h1>
 			<div class="col-md-12">
 				<div class="box">
-					<span class="desc">October 1, 2017</span>
+					<span class="desc">October 1, 2016</span>
 					<?php if( get_field('raleigh_schedule_button_url') ): ?>
 						<div>
 							<a target="blank" href="<?php the_field('raleigh_schedule_button_url')?>"
