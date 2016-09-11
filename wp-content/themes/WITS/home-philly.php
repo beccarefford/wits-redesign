@@ -69,6 +69,14 @@
 						2017 events and other updates.</p>
 				</div>
 			</div>
+
+		<h2><center>
+			This event wouldn't happen without our dedicated team of volunteers.
+		</h2>
+		<a target="_blank" href="/2016-philadelphia-organizing-committee">
+			<div class="btn-primary">View the Committee</div>
+		</a>
+		</center>
 	</section>
 <?php /*
 	<section class="container keynote">
@@ -207,4 +215,6 @@ wp_reset_postdata(); ?>
 <?php endif; ?>
 
 */ ?>
+
+
 <?php get_footer(); ?>
