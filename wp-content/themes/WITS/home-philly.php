@@ -72,10 +72,10 @@
 
 		<center>
 			<p>
-				This event wouldn't happen without our dedicated team of volunteers.
+				<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
 			</p>
 		</center>
-
+<br />
 		<center>
 		<a target="_blank" href="/2016-philadelphia-organizing-committee">
 			<div class="btn">View the Committee</div>

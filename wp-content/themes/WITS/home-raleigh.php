@@ -181,7 +181,22 @@ wp_reset_postdata(); ?>
 			</div>
 		</div>
 	</div>
-   </div>
+
+	<center>
+		<p>
+			<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
+		</p>
+	</center>
+<br />
+	<center>
+	<a target="_blank" href="/2016-raleigh-durham-organizing-committee">
+		<div class="btn">View the Committee</div>
+	</a>
+	</center>
+	<br />
+	<br />
+	<br />
+
 </section>
 <!--End Speaker Carousel-->
 
