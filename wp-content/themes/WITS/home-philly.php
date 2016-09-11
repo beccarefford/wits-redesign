@@ -70,9 +70,13 @@
 				</div>
 			</div>
 
-		<h2><center>
-			This event wouldn't happen without our dedicated team of volunteers.
-		</h2>
+		<center>
+			<p>
+				This event wouldn't happen without our dedicated team of volunteers.
+			</p>
+		</center>
+
+		<center>
 		<a target="_blank" href="/2016-philadelphia-organizing-committee">
 			<div class="btn">View the Committee</div>
 		</a>
