@@ -55,7 +55,7 @@
 						<a target-"_blank" href="https://www.instagram.com/womenintechsummit/">
 							<i class="fa fa-instagram fa-2x"></i></a>
 						<a target-"_blank" href="https://www.youtube.com/channel/UCrmEDpAvErLjVkCLfvK-VCQ">
-							<i class="fa fa-youtube fa-2x"></i></a>
+							<i class="fa fa-youtube-square fa-2x"></i></a>
 			</div>
 			<!-- .copyright -->
 		</div>
