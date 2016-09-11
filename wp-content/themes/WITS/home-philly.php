@@ -74,9 +74,12 @@
 			This event wouldn't happen without our dedicated team of volunteers.
 		</h2>
 		<a target="_blank" href="/2016-philadelphia-organizing-committee">
-			<div class="btn-primary">View the Committee</div>
+			<div class="btn">View the Committee</div>
 		</a>
 		</center>
+		<br />
+		<br />
+		<br />
 	</section>
 <?php /*
 	<section class="container keynote">
