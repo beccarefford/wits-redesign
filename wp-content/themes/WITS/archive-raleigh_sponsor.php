@@ -1,6 +1,6 @@
 <?php
 
-/** Template Name: raleigh Sponsors */
+/** Template Name: Raleigh Sponsors */
 
 get_header(); ?>
 
