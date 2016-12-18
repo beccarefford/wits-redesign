@@ -23,6 +23,7 @@
 		</div>
 	</section>
 
+<?php /*
 	<div class="row nopadding">
   <a href="/boston_session">
     <div class="col-md-4 nopadding">
@@ -49,6 +50,8 @@
 	</a>
 </div>
 
+*/ ?>
+
 		<section class="container headline">
 			<div class="row">
 				<div class="col-md-7">
@@ -63,13 +66,14 @@
 				<div class="col-md-5">
 					&nbsp;
 					<h2>Event Details</h2>
-					<p><strong>The 2016 event has passed.</strong>
+					<p><strong>Join us for our first year in Boston!</strong>
 					<br /><a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
 						Sign up for our mailing list</a> for announcements about our
 						2017 events and other updates.</p>
 				</div>
 			</div>
 
+<?php /*
 		<center>
 			<p>
 				<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
@@ -85,6 +89,9 @@
 		<br />
 		<br />
 	</section>
+
+*/ ?>
+
 <?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
