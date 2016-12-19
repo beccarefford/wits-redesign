@@ -12,15 +12,19 @@
 				<div class="col-md-12">
 					<div class="box">
 						<span class="desc">July 22, 2017</span>
-						<?php if( get_field('boston_schedule_button_url') ): ?>
+						<?php /* if( get_field('boston_schedule_button_url') ): ?>
 							<div>
 								<a target="_blank" href="<?php the_field('boston_schedule_button_url')?>"
 									class="btn btn-primary btn-header">View Schedule</a>
 							</div>
 						<?php endif; ?>
+						*/ ?>
 					</div>
 			</div>
 		</div>
+
+		<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
+		<br />
 	</section>
 
 
