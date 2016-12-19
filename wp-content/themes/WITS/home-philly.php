@@ -70,6 +70,9 @@
 				</div>
 			</div>
 
+			<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
+	<br />
+
 		<center>
 			<p>
 				<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
@@ -85,8 +88,6 @@
 		<br />
 		<br />
 
-		<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
-<br />
 	</section>
 <?php /*
 	<section class="container keynote">

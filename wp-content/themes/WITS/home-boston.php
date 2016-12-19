@@ -22,9 +22,6 @@
 					</div>
 			</div>
 		</div>
-
-		<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
-		<br />
 	</section>
 
 
@@ -76,6 +73,9 @@
 						2017 events and other updates.</p>
 				</div>
 			</div>
+
+			<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
+			<br />
 
 <?php /*
 		<center>
