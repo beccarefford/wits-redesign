@@ -48,7 +48,7 @@
 				<div class="state">a</div>
 				<h2><font style="color:#fff;">Raleigh-Durham</font></h2>
 				<p>
-					October 1, 2016
+					November 11, 2017
 				</p>
 			</center>
 		</div>

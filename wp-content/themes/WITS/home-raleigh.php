@@ -11,7 +11,7 @@
 			<h1>Raleigh-Durham</h1>
 			<div class="col-md-12">
 				<div class="box">
-					<span class="desc">October 1, 2016</span>
+					<span class="desc">November 11, 2017</span>
 					<?php if( get_field('raleigh_schedule_button_url') ): ?>
 						<div>
 							<a target="blank" href="<?php the_field('raleigh_schedule_button_url')?>"
@@ -28,7 +28,7 @@
 <a href="/raleigh_session">
 	<div class="col-md-4 nopadding">
 			<div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
-				<h2>View All Sessions</h2>
+				<h2>2016 Sessions</h2>
 			</div>
 	</div>
 </a>
@@ -36,7 +36,7 @@
 <a href="/raleigh_speaker">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-speaker" onmouseover="this.style.background='#493D48';" onmouseout="this.style.background='#3C323B';">
-			<h2>View All Speakers</h2>
+			<h2>2016 Speakers</h2>
 		</div>
 	</div>
 </a>
@@ -44,7 +44,7 @@
 <a href="/raleigh-sponsors">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-sponsor" onmouseover="this.style.background='#635B63';" onmouseout="this.style.background='#493D48';">
-			<h2>View All Sponsors</h2>
+			<h2>2016 Sponsors</h2>
 		</div>
 	</div>
 </a>
@@ -64,10 +64,11 @@
 			<div class="col-md-5">
 				&nbsp;
 				<h2>Event Details</h2>
-				<p><strong>Date:</strong> October 1, 2016
-				<br /><strong>Venue: </strong>Frontier at Research Triangle Park
-				<br />800 Park Offices Dr, Research Triangle Park
+				<p><strong>Date:</strong> November 11, 2017
+				<br /><strong>Venue: </strong>Location TBD
+				<?php /* <br />800 Park Offices Dr, Research Triangle Park
 				<br />North Carolina, 27709
+				*/ ?>
 			</div>
 		</div>
 
@@ -77,13 +78,13 @@
 			<h2>Register Today</h2>
 			&nbsp;
 		</center>
-		<script src="https://www.universe.com/embed.js" type="text/javascript"></script>
-		<iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/566ec4e0294096c0b50012ba?buttonBackground=ff4776&amp;buttonColor=ffffff&amp;buyTicketsText=Buy Tickets" width="300" height="150" frameborder="0"></iframe>
+		<script src='https://www.universe.com/embed.js'></script>
+		<iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/58584fbde7657f0049e34c6e" frameborder="0" scrolling="no"></iframe>
 	</div>
 </div>
 
 	</section>
-
+<?php /* 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">
