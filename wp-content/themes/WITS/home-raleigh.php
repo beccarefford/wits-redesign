@@ -66,9 +66,8 @@
 				<h2>Event Details</h2>
 				<p><strong>Date:</strong> November 11, 2017
 				<br /><strong>Venue: </strong>Location TBD
-				<?php /* <br />800 Park Offices Dr, Research Triangle Park
+				<br />800 Park Offices Dr, Research Triangle Park
 				<br />North Carolina, 27709
-				*/ ?>
 			</div>
 		</div>
 
@@ -84,7 +83,7 @@
 </div>
 
 	</section>
-<?php /* 
+<?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">
