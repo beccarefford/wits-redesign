@@ -73,7 +73,24 @@
 
 		<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584dcb9289827c002a850984" frameborder="0" scrolling="no"></iframe>
 		<br />
+
+		<center>
+ 		 <p>
+ 			 <strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
+ 		 </p>
+ 	 </center>
+ <br />
+ 	 <center>
+ 	 <a target="_blank" href="/2016-washington-d-c-organizing-committee">
+ 		 <div class="btn">View the Committee</div>
+ 	 </a>
+ 	 </center>
+ 	 <br />
+ 	 <br />
+ 	 <br />
 </section>
+
+<?php /*
 
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
@@ -172,21 +189,6 @@ wp_reset_postdata(); ?>
 			</div>
 		</div>
 	</div>
-
-	 <center>
-		 <p>
-			 <strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
-		 </p>
-	 </center>
-<br />
-	 <center>
-	 <a target="_blank" href="/2016-washington-d-c-organizing-committee">
-		 <div class="btn">View the Committee</div>
-	 </a>
-	 </center>
-	 <br />
-	 <br />
-	 <br />
 </section>
 <!--End Speaker Carousel-->
 
