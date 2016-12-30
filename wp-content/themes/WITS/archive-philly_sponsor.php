@@ -36,12 +36,16 @@ $myquery = new WP_Query($headline);
           </div>
 
           <div class="col-md-6 col-xs-12">
-            <a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
-              <h3><?php the_title(); ?></h3>
-            </a>
+            <h3><?php the_title(); ?></h3>
             <br />
+              <ul>
+                <li><a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
+                <?php echo the_field('philly_sponsor_url'); ?></a></li>
+              <li><?php if( get_field('philly_sponsor_twitter') ): ?>
               <a href="<?php the_field('philly_sponsor_twitter');?>">
-              <?php echo the_field('philly_sponsor_twitter'); ?></a>
+              <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
+            </ul>
+            <?php endif; ?>
           </div>
         </div>
       <hr />
@@ -321,6 +325,7 @@ endif;
         'post_type' => 'philly_sponsor',
         'orderby' => 'date',
         'order' => 'ASC',
+        'post_status' => 'published',
         'meta_key' => 'philly_sponsor_level',
         'meta_value' => 'Media',
         );
