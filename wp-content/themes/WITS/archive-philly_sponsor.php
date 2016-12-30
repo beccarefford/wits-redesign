@@ -54,21 +54,21 @@ endif;
   <?php // sponsor_type queries
         // begin with 'Headline'?>
 
-  <?php $headline = array(
+  <?php $citysponsor = array(
         	'post_type' => 'philly_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
         	'meta_key' => 'philly_sponsor_level',
-        	'meta_value' => 'Headline',
+        	'meta_value' => 'PCS',
         	);
 
-$myquery = new WP_Query($headline);
+$myquery = new WP_Query($citysponsor);
   if( $myquery->have_posts() ) :
     while( $myquery->have_posts() ) : $myquery->the_post();
         $current_post = $myquery->current_post + 1; ?>
 
         <?php if($current_post == 1) { ?>
-          <h3 class="sponsor"><span>Headline</span></h3>
+          <h3 class="sponsor"><span>Premier City Sponsor</span></h3>
         <?php } ?>
         <div class="row">
           <div class="col-md-6 col-xs-12">

@@ -110,7 +110,7 @@ acf_add_local_field_group(array (
 				'id' => '',
 			),
 			'choices' => array (
-				'Headline' => 'Headline',
+				'Premier City Sponsor' => 'PCS',
 				'Petabyte' => 'Petabyte',
 				'Terabyte' => 'Terabyte',
 				'Gigabyte' => 'Gigabyte',
