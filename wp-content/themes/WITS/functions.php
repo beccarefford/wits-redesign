@@ -653,4 +653,83 @@ acf_add_local_field_group(array (
 	'description' => '',
 ));
 
+endif;
+
+if( function_exists('acf_add_local_field_group') ):
+
+acf_add_local_field_group(array (
+	'key' => 'group_5865d3209ef7d',
+	'title' => 'Updated Sponsors',
+	'fields' => array (
+		array (
+			'key' => 'field_5865d3ab4e061',
+			'label' => 'New Sponsor Types',
+			'name' => 'new_sponsor_types',
+			'type' => 'select',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array (
+				'Headline' => 'Headline',
+				'Petabyte' => 'Petabyte',
+				'Terabyte' => 'Terabyte',
+				'Gigabyte' => 'Gigabyte',
+				'Lanyard' => 'Lanyard',
+				'Megabyte' => 'Megabyte',
+				'Snack' => 'Snack',
+				'PremierCitySponsor' => 'PremierCitySponsor',
+				'CitySponsor' => 'CitySponsor',
+				'Friends' => 'Friends',
+				'MediaAndPartners' => 'MediaAndPartners',
+			),
+			'default_value' => array (
+			),
+			'allow_null' => 0,
+			'multiple' => 0,
+			'ui' => 0,
+			'ajax' => 0,
+			'placeholder' => '',
+			'disabled' => 0,
+			'readonly' => 0,
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'boston_sponsor',
+			),
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'philly_sponsor',
+			),
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'raleigh_sponsor',
+			),
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'washington_sponsor',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
 endif; ?>
