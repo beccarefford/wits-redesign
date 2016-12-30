@@ -43,7 +43,7 @@ $myquery = new WP_Query($headline);
             <?php endif; ?>
           </div>
         </div>
-
+      <hr />
     <?php
   endwhile;
 endif;
@@ -90,6 +90,7 @@ $myquery = new WP_Query($headline);
             <?php endif; ?>
           </div>
         </div>
+      <hr />
     <?php
   endwhile;
 endif;
@@ -133,6 +134,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
+    <hr />
   <?php
 endwhile;
 endif;
@@ -177,7 +179,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
@@ -221,7 +223,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
@@ -265,7 +267,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
@@ -309,7 +311,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
@@ -353,7 +355,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
@@ -397,7 +399,7 @@ if( $myquery->have_posts() ) :
           <?php endif; ?>
         </div>
       </div>
-
+    <hr />
   <?php
 endwhile;
 endif;
