@@ -239,6 +239,17 @@ wp_reset_postdata(); ?>
 			future careers.</p>
 		</div>
 		<div class="col-md-5">
+			<h2>Call For Papers is now open!</h2>
+		&nbsp;
+		<center>
+			<a target="_blank" href="https://goo.gl/forms/VpqSiN6c8NTYU9mA3">
+				<div class="btn-primary">
+					Submit A Talk
+				</div>
+			</a>
+		</center>
+		&nbsp;
+		&nbsp;
 			<!-- Begin MailChimp Signup Form -->
 			<h2>Stay up-to-date with future events.</h2>
 			&nbsp;
