@@ -42,7 +42,6 @@ $myquery = new WP_Query($headline);
             <br />
               <a href="<?php the_field('philly_sponsor_twitter');?>">
               <?php echo the_field('philly_sponsor_twitter'); ?></a>
-            <?php endif; ?>
           </div>
         </div>
       <hr />
