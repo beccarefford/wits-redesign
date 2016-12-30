@@ -59,7 +59,7 @@ endif;
         	'orderby' => 'date',
         	'order' => 'ASC',
         	'meta_key' => 'philly_sponsor_level',
-        	'meta_value' => 'PremierCitySponsor',
+        	'meta_value' => 'PCS',
         	);
 
 $myquery = new WP_Query($citysponsor);
