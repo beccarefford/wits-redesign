@@ -74,7 +74,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<center>
-			<h2>Register Today</h2>
+			<h2>Register for the 2017 Event</h2>
 			&nbsp;
 		</center>
 		<script src='https://www.universe.com/embed.js'></script>
