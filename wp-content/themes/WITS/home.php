@@ -239,9 +239,8 @@ wp_reset_postdata(); ?>
 			future careers.</p>
 		</div>
 		<div class="col-md-5">
-			<h2>Call For Papers is now open!</h2>
-		&nbsp;
 		<center>
+			<h2>Call For Papers is now open!</h2>
 			<a target="_blank" href="https://goo.gl/forms/VpqSiN6c8NTYU9mA3">
 				<div class="btn-primary">
 					Submit A Talk
@@ -251,9 +250,8 @@ wp_reset_postdata(); ?>
 		&nbsp;
 		&nbsp;
 			<!-- Begin MailChimp Signup Form -->
-			<h2>Stay up-to-date with future events.</h2>
-			&nbsp;
-			<center>
+		<center>
+			<strong>Stay up-to-date with future events.</strong>
 				<a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
 					<div class="btn-primary">
 						Sign Up for our mailing list
