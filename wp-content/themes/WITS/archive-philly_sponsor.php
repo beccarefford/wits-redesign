@@ -13,11 +13,9 @@ get_header(); ?>
         // begin with 'Headline'?>
 
   <?php $headline = array(
-        	'post_type' => 'philly_sponsor',
+        	'post_type' => 'summit_series_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
-        	'meta_key' => 'philly_sponsor_level',
-        	'meta_value' => 'Headline',
         	);
 
 $myquery = new WP_Query($headline);
