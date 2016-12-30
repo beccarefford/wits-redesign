@@ -97,6 +97,39 @@ acf_add_local_field_group(array (
 	'title' => 'Philly Sponsors',
 	'fields' => array (
 		array (
+			'key' => 'field_57c39662d096e',
+			'label' => 'Philly Sponsor Level',
+			'name' => 'philly_sponsor_level',
+			'type' => 'select',
+			'instructions' => '',
+			'required' => 1,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array (
+				'Headline' => 'Headline',
+				'Petabyte' => 'Petabyte',
+				'Terabyte' => 'Terabyte',
+				'Gigabyte' => 'Gigabyte',
+				'Lanyard' => 'Lanyard',
+				'Megabyte' => 'Megabyte',
+				'Snack' => 'Snack',
+				'Media' => 'Media',
+			),
+			'default_value' => array (
+			),
+			'allow_null' => 0,
+			'multiple' => 0,
+			'ui' => 0,
+			'ajax' => 0,
+			'placeholder' => '',
+			'disabled' => 0,
+			'readonly' => 0,
+		),
+		array (
 			'key' => 'field_57c39695d096f',
 			'label' => 'Philly Sponsor URL',
 			'name' => 'philly_sponsor_url',
@@ -653,7 +686,7 @@ acf_add_local_field_group(array (
 	'description' => '',
 ));
 
-endif;
+endif; 
 
 if( function_exists('acf_add_local_field_group') ):
 
