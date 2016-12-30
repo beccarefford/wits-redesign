@@ -325,7 +325,7 @@ endif;
         'post_type' => 'philly_sponsor',
         'orderby' => 'date',
         'order' => 'ASC',
-        'post_status' => 'published',
+        'post_status' => 'publish',
         'meta_key' => 'philly_sponsor_level',
         'meta_value' => 'Media',
         );
