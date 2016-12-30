@@ -20,8 +20,8 @@ function register_summit_series_sponsor_post_type()
         "view" => "View",
         "view_item" => "View Summit Series Sponsor",
         "search_items" => "Search Summit Series Sponsors",
-        "not_found" => "No Sponsors Found",
-        "not_found_in_trash" => "No Sponsors found in Trash",
+        "not_found" => "No Summit Series Sponsors Found",
+        "not_found_in_trash" => "No Summit Series Sponsors found in Trash",
     );
 
     $args = Array(
@@ -39,7 +39,7 @@ function register_summit_series_sponsor_post_type()
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
-    register_post_type('summit_series_sponsor', $args);
+    register_post_type("summit_series_sponsor", $args);
 }
 add_action('init', 'register_summit_series_sponsor_post_type');
 
