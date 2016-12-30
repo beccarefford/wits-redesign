@@ -13,7 +13,7 @@ get_header(); ?>
         // begin with 'Headline'?>
 
   <?php $headline = array(
-        	'post_type' => 'summit_series_sponsor',
+        	'post_type' => 'summitseries_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
         	);
@@ -24,11 +24,11 @@ $myquery = new WP_Query($headline);
         $current_post = $myquery->current_post + 1; ?>
 
         <?php if($current_post == 1) { ?>
-          <h3 class="sponsor"><span>Headline</span></h3>
+          <h3 class="sponsor"><span>Summit Series</span></h3>
         <?php } ?>
         <div class="row">
           <div class="col-md-6 col-xs-12">
-            <a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
+            <a target="_blank" href="<?php the_field('summit_series_sponsor_url')?>">
               <?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
             </a>
           </div>
@@ -37,11 +37,11 @@ $myquery = new WP_Query($headline);
             <h3><?php the_title(); ?></h3>
             <br />
               <ul>
-                <li><a target="_blank" href="<?php the_field('philly_sponsor_url')?>">
-                <?php echo the_field('philly_sponsor_url'); ?></a></li>
-              <li><?php if( get_field('philly_sponsor_twitter') ): ?>
-              <a href="<?php the_field('philly_sponsor_twitter');?>">
-              <?php echo the_field('philly_sponsor_twitter'); ?></a></li>
+                <li><a target="_blank" href="<?php the_field('summit_series_sponsor_url')?>">
+                <?php echo the_field('summit_series_sponsor_url'); ?></a></li>
+              <li><?php if( get_field('summit_series_sponsor_twitter') ): ?>
+              <a href="<?php the_field('summit_series_sponsor_twitter');?>">
+              <?php echo the_field('summit_series_sponsor_twitter'); ?></a></li>
             </ul>
             <?php endif; ?>
           </div>
