@@ -59,7 +59,7 @@ endif;
         	'orderby' => 'date',
         	'order' => 'ASC',
         	'meta_key' => 'raleigh_sponsor_level',
-        	'meta_value' => 'Headline',
+        	'meta_value' => 'PremierCitySponsor',
         	);
 
 $myquery = new WP_Query($headline);
@@ -68,7 +68,7 @@ $myquery = new WP_Query($headline);
         $current_post = $myquery->current_post + 1; ?>
 
         <?php if($current_post == 1) { ?>
-          <h3 class="sponsor"><span>Headline</span></h3>
+          <h3 class="sponsor"><span>Premier City Sponsor</span></h3>
         <?php } ?>
         <div class="row">
           <div class="col-md-6 col-xs-12">
@@ -103,7 +103,7 @@ endif;
         'orderby' => 'date',
         'order' => 'ASC',
         'meta_key' => 'raleigh_sponsor_level',
-        'meta_value' => 'Petabyte',
+        'meta_value' => 'CitySponsor',
         );
 
 $myquery = new WP_Query($headline);
@@ -112,7 +112,7 @@ if( $myquery->have_posts() ) :
       $current_post = $myquery->current_post + 1; ?>
 
       <?php if($current_post == 1) { ?>
-        <h3 class="sponsor"><span>Petabyte</span></h3>
+        <h3 class="sponsor"><span>City Sponsor</span></h3>
       <?php } ?>
       <div class="row">
         <div class="col-md-6 col-xs-12">
@@ -148,7 +148,7 @@ endif;
         'orderby' => 'date',
         'order' => 'ASC',
         'meta_key' => 'raleigh_sponsor_level',
-        'meta_value' => 'Terabyte',
+        'meta_value' => 'Friends',
         );
 
 $myquery = new WP_Query($headline);
@@ -157,7 +157,7 @@ if( $myquery->have_posts() ) :
       $current_post = $myquery->current_post + 1; ?>
 
       <?php if($current_post == 1) { ?>
-        <h3 class="sponsor"><span>Terabyte</span></h3>
+        <h3 class="sponsor"><span>Friends</span></h3>
       <?php } ?>
       <div class="row">
         <div class="col-md-6 col-xs-12">
@@ -192,7 +192,7 @@ endif;
         'orderby' => 'date',
         'order' => 'ASC',
         'meta_key' => 'raleigh_sponsor_level',
-        'meta_value' => 'Gigabyte',
+        'meta_value' => 'MediaAndPartners',
         );
 
 $myquery = new WP_Query($headline);
@@ -201,95 +201,7 @@ if( $myquery->have_posts() ) :
       $current_post = $myquery->current_post + 1; ?>
 
       <?php if($current_post == 1) { ?>
-        <h3 class="sponsor"><span>Gigabyte</span></h3>
-      <?php } ?>
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <a target="_blank" href="<?php the_field('raleigh_sponsor_url')?>">
-            <?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-xs-12">
-          <h3><?php the_title(); ?></h3>
-          <br />
-            <ul>
-              <li><a target="_blank" href="<?php the_field('raleigh_sponsor_url')?>">
-              <?php echo the_field('raleigh_sponsor_url'); ?></a></li>
-            <li><?php if( get_field('raleigh_sponsor_twitter') ): ?>
-            <a href="<?php the_field('raleigh_sponsor_twitter');?>">
-            <?php echo the_field('raleigh_sponsor_twitter'); ?></a></li>
-          </ul>
-          <?php endif; ?>
-        </div>
-      </div>
-    <hr />
-  <?php
-endwhile;
-endif;
-?>
-
-<?php wp_reset_postdata(); ?>
-
-<?php $headline = array(
-        'post_type' => 'raleigh_sponsor',
-        'orderby' => 'date',
-        'order' => 'ASC',
-        'meta_key' => 'raleigh_sponsor_level',
-        'meta_value' => 'Lanyard',
-        );
-
-$myquery = new WP_Query($headline);
-if( $myquery->have_posts() ) :
-  while( $myquery->have_posts() ) : $myquery->the_post();
-      $current_post = $myquery->current_post + 1; ?>
-
-      <?php if($current_post == 1) { ?>
-        <h3 class="sponsor"><span>Lanyard</span></h3>
-      <?php } ?>
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <a target="_blank" href="<?php the_field('raleigh_sponsor_url')?>">
-            <?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-xs-12">
-          <h3><?php the_title(); ?></h3>
-          <br />
-            <ul>
-              <li><a target="_blank" href="<?php the_field('raleigh_sponsor_url')?>">
-              <?php echo the_field('raleigh_sponsor_url'); ?></a></li>
-            <li><?php if( get_field('raleigh_sponsor_twitter') ): ?>
-            <a href="<?php the_field('raleigh_sponsor_twitter');?>">
-            <?php echo the_field('raleigh_sponsor_twitter'); ?></a></li>
-          </ul>
-          <?php endif; ?>
-        </div>
-      </div>
-    <hr />
-  <?php
-endwhile;
-endif;
-?>
-
-<?php wp_reset_postdata(); ?>
-
-<?php $headline = array(
-        'post_type' => 'raleigh_sponsor',
-        'orderby' => 'date',
-        'order' => 'ASC',
-        'meta_key' => 'raleigh_sponsor_level',
-        'meta_value' => 'Megabyte',
-        );
-
-$myquery = new WP_Query($headline);
-if( $myquery->have_posts() ) :
-  while( $myquery->have_posts() ) : $myquery->the_post();
-      $current_post = $myquery->current_post + 1; ?>
-
-      <?php if($current_post == 1) { ?>
-        <h3 class="sponsor"><span>Megabyte</span></h3>
+        <h3 class="sponsor"><span>Media & Partners</span></h3>
       <?php } ?>
       <div class="row">
         <div class="col-md-6 col-xs-12">
