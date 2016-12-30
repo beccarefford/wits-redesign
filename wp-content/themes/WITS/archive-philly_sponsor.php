@@ -90,7 +90,6 @@ $myquery = new WP_Query($headline);
             <?php endif; ?>
           </div>
         </div>
-      <hr />
     <?php
   endwhile;
 endif;
