@@ -39,7 +39,7 @@ function register_summit_series_sponsor_post_type()
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
-    register_post_type("summit_series_sponsor", $args);
+    register_post_type('summit_series_sponsor', $args);
 }
 add_action('init', 'register_summit_series_sponsor_post_type');
 
