@@ -1,8 +1,8 @@
 <?php
 
 /*
-Plugin Name: Philly Custom Post Types
-Description: Sessions, speakers, and sponsors for Philadelphia.
+Plugin Name: Summit Series Sponsors
+Description: National Sponsors for the Women In Tech Summit
 */
 
 function register_summit_series_sponsor_post_type()
