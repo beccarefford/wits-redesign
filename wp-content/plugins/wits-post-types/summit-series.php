@@ -5,7 +5,7 @@ Plugin Name: Summit Series Sponsors
 Description: National Sponsors for the Women In Tech Summit
 */
 
-function register_summit_series_sponsor_post_type()
+function register_summitseries_sponsor_post_type()
 {
     $labels = array(
         "name" => "Summit Series Sponsors",
@@ -35,12 +35,12 @@ function register_summit_series_sponsor_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "summit_series_sponsor", "with_front" => true),
+        "rewrite" => array("slug" => "summitseries_sponsor", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
-    register_post_type("summit_series_sponsor", $args);
+    register_post_type("summitseries_sponsor", $args);
 }
-add_action('init', 'register_summit_series_sponsor_post_type');
+add_action('init', 'register_summitseries_sponsor_post_type');
 
 ?>
