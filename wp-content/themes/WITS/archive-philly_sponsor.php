@@ -58,7 +58,7 @@ endif;
         	'post_type' => 'philly_sponsor',
         	'orderby' => 'date',
         	'order' => 'ASC',
-        	'meta_key' => 'new_sponsor_types',
+        	'meta_key' => 'philly_sponsor_level',
         	'meta_value' => 'PremierCitySponsor',
         	);
 
