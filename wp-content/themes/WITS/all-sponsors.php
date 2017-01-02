@@ -13,7 +13,7 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="container">
+<section class="container headline">
   <div class="row">
     <div class="col-md-12">
       <h1><center>
