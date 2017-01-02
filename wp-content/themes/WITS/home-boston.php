@@ -6,7 +6,7 @@
 
 	<section class="container banner">
 	<div class="landing" style="background-image:
-    url('/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-3.09.44-PM.png')">
+    url('/wp-content/uploads/2017/01/Screen-Shot-2017-01-02-at-8.38.26-AM-1.png')">
 			<div class="landing-home">
 				<h1>Boston</h1>
 				<div class="col-md-12">
