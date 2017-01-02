@@ -9,21 +9,10 @@ get_header(); ?>
   url('/wp-content/uploads/2017/01/Screen-Shot-2017-01-02-at-8.58.13-AM.png')">
     <div class="landing-home">
       <h1>All Sponsors</h1>
-      <div class="col-md-12">
-        <div class="box">
-          <span class="desc">They Make This Happen</span>
-          <?php if( get_field('philly_schedule_button_url') ): ?>
-            <div>
-              <a target="_blank" href="<?php the_field('philly_schedule_button_url')?>"
-                class="btn btn-primary btn-header">View Schedule</a>
-            </div>
-          <?php endif; ?>
-        </div>
     </div>
-  </div>
+</div>
 </section>
 
-<section class="container headline">
   <div class="row">
     <div class="col-md-12">
       <h1><center>
@@ -308,7 +297,5 @@ endif;
 ?>
 
 <?php wp_reset_postdata(); ?>
-
-</section>
 
 <?php get_footer(); ?>
