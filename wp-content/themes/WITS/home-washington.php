@@ -28,7 +28,7 @@
 <a href="/washington_session">
 	<div class="col-md-4 nopadding">
 			<div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
-				<h2>2016 Sessions</h2>
+				<h2>Sessions</h2>
 			</div>
 	</div>
 </a>
@@ -36,7 +36,7 @@
 <a href="/washington_speaker">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-speaker" onmouseover="this.style.background='#493D48';" onmouseout="this.style.background='#3C323B';">
-			<h2>2016 Speakers</h2>
+			<h2>Speakers</h2>
 		</div>
 	</div>
 </a>
@@ -44,7 +44,7 @@
 <a href="/washington-sponsors">
 	<div class="col-md-4 nopadding">
 		<div style="max-height:70px;" class="home-sponsor" onmouseover="this.style.background='#635B63';" onmouseout="this.style.background='#493D48';">
-			<h2>2016 Sponsors</h2>
+			<h2>Sponsors</h2>
 		</div>
 	</div>
 </a>
@@ -64,10 +64,11 @@
 			<div class="col-md-5">
 				&nbsp;
 				<h2>Event Details</h2>
-				<p><strong>The 2016 event has passed.</strong>
-					<br /><a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
-						Sign up for our mailing list</a> for announcements about our
-						2017 events and other updates.</p>
+				<p><strong>Location:</strong>
+					<br />The Washington Post
+					<br />1301 K Street NW
+					<br />Washington D.C. 20071
+				</p>
 			</div>
 		</div>
 
