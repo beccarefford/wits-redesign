@@ -74,8 +74,15 @@
 				</div>
 			</div>
 
-			<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584e9209b755070036981d83" frameborder="0" scrolling="no"></iframe>
-			<br />
+			<div class="row">
+				<div class="col-md-12">
+					<center>
+						<h2>Register for the 2017 Event</h2>
+						&nbsp;
+					</center>
+				<script src='https://www.universe.com/embed.js'></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/584e9209b755070036981d83" frameborder="0" scrolling="no"></iframe>
+				</div>
+			</div>
 
 <?php /*
 		<center>
