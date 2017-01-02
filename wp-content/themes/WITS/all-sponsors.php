@@ -75,12 +75,14 @@ endif;
 
 
 
-<center>
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  <h1 style="margin-top:150px;">Philadelphia Sponsors</h1>
-</center>
+<section class="container headline">
+  <div style="margin-top:150px;" class="row">
+    <div class="col-md-12">
+      <h1><center>
+        Philadelphia Sponsors
+      </center></h1>
+    </div>
+  </div>
 
   <?php $query = array(
         	'post_type' => 'philly_sponsor',
@@ -309,12 +311,14 @@ endif;
 
 
 
-<center>
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  <h1 style="margin-top:150px;">Raleigh-Durham Sponsors</h1>
-</center>
+<section class="container headline">
+  <div style="margin-top:150px;" class="row">
+    <div class="col-md-12">
+      <h1><center>
+        Raleigh-Durham Sponsors
+      </center></h1>
+    </div>
+  </div>
 
 <?php $headline = array(
         'post_type' => 'raleigh_sponsor',
@@ -589,12 +593,14 @@ endif;
 
 
 
-<center>
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  <h1 style="margin-top:150px;">Washington D.C. Sponsors</h1>
-</center>
+<section class="container headline">
+  <div style="margin-top:150px;" class="row">
+    <div class="col-md-12">
+      <h1><center>
+        Washington D.C. Sponsors
+      </center></h1>
+    </div>
+  </div>
 
 
 <?php $query = array(
