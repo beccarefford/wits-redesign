@@ -13,6 +13,7 @@ get_header(); ?>
   </div>
 </section>
 
+<section class="container">
   <div class="row">
     <div class="col-md-12">
       <h1><center>
@@ -297,5 +298,7 @@ endif;
 ?>
 
 <?php wp_reset_postdata(); ?>
+
+</section>
 
 <?php get_footer(); ?>
