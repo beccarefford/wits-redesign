@@ -16,7 +16,7 @@ get_header(); ?>
 <?php /* SUMMIT SERIES */ ?>
 
 <section class="container headline">
-  <div style="margin-top:150spx;" class="row">
+  <div style="margin-top:150px;" class="row">
     <div class="col-md-12">
       <h1><center>
         Summit Series
@@ -75,9 +75,7 @@ endif;
 
 
 
-<center>
-  <h1 style="margin-top:150px;">Philadelphia Sponsors</h1>
-</center>
+
 
   <?php $query = array(
         	'post_type' => 'philly_sponsor',
