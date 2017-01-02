@@ -63,10 +63,18 @@
 				<div class="col-md-5">
 					&nbsp;
 					<h2>Event Details</h2>
+					<p>
+						<strong>Location:</strong>
+						<br />Chemical Heritage Foundation
+						<br />315 Chestnut Street
+						<br />Philadelphia, PA 19106
+					</p>
+					<?php /*
 					<p><strong>The 2016 event has passed.</strong>
 					<br /><a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
 						Sign up for our mailing list</a> for announcements about our
 						2017 events and other updates.</p>
+						*/ ?>
 				</div>
 			</div>
 
