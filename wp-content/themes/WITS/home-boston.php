@@ -103,9 +103,7 @@
 
 */ ?>
 
-<?php /*
 	<section class="container keynote">
-        <h2>Keynote Speakers</h2>
 	<div class="row">
 		<?php
 wp_reset_postdata();
@@ -123,6 +121,7 @@ $myquery = new WP_Query($keynote);
 	if( $myquery->have_posts() ) :
 		while( $myquery->have_posts() ) : $myquery->the_post();
 			if (get_field('boston_keynote')) { ?>
+		<h2>Keynote Speakers</h2>
 		<div class="col-md-6">
 			<div class="col-md-5">
 				<center>
@@ -205,7 +204,7 @@ wp_reset_postdata(); ?>
 </section>
 <!--End Speaker Carousel-->
 
-
+<?php /*
 
 <!-- Start Sponsors -->
 <div id="tile_sponsors" class="container widget">

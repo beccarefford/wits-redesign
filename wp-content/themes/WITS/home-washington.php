@@ -11,7 +11,7 @@
 			<h1>Washington D.C.</h1>
 			<div class="col-md-12">
 				<div class="box">
-					<span class="desc">Spring 2017</span>
+					<span class="desc">March 24, 2017</span>
 					<?php if( get_field('washington_schedule_button_url') ): ?>
 						<div>
 							<a target="_blank" href="<?php the_field('washington_schedule_button_url')?>"
