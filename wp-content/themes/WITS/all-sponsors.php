@@ -5,14 +5,14 @@
 get_header(); ?>
 
 <section class="container banner">
-<div class="landing" style="background-image:
+  <div class="landing" style="background-image:
   url('/wp-content/uploads/2017/01/Screen-Shot-2017-01-02-at-8.58.13-AM.png')">
     <div class="landing-home">
       <h1>All Sponsors</h1>
     </div>
+  </div>
 </section>
 
-<section class="container headline">
   <div class="row">
     <div class="col-md-12">
       <h1><center>
