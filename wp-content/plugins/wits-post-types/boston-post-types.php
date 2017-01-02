@@ -86,227 +86,6 @@ function register_boston_speaker_post_type()
 }
 add_action('init', 'register_boston_speaker_post_type');
 
-if(function_exists("register_field_group"))
-{
-	register_field_group(array (
-		'id' => 'acf_boston-speaker-field-group',
-		'title' => 'Boston Speaker Field Group',
-		'fields' => array (
-			array (
-				'key' => 'field_5773a670c6c68',
-				'label' => 'Keynote',
-				'name' => 'boston_keynote',
-				'type' => 'true_false',
-				'message' => '',
-				'default_value' => 0,
-			),
-			array (
-				'key' => 'field_5773a67ec6c69',
-				'label' => 'Job Title',
-				'name' => 'boston_job_title',
-				'type' => 'text',
-				'default_value' => '',
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-				'formatting' => 'html',
-				'maxlength' => '',
-			),
-			array (
-				'key' => 'field_5773a689c6c6a',
-				'label' => 'Twitter',
-				'name' => 'boston_twitter',
-				'type' => 'text',
-				'default_value' => '',
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-				'formatting' => 'html',
-				'maxlength' => '',
-			),
-			array (
-				'key' => 'field_5773a692c6c6b',
-				'label' => 'Website',
-				'name' => 'boston_website',
-				'type' => 'text',
-				'default_value' => '',
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-				'formatting' => 'html',
-				'maxlength' => '',
-			),
-		),
-		'location' => array (
-			array (
-				array (
-					'param' => 'post_type',
-					'operator' => '==',
-					'value' => 'boston_speaker',
-					'order_no' => 0,
-					'group_no' => 0,
-				),
-			),
-		),
-		'options' => array (
-			'position' => 'normal',
-			'layout' => 'no_box',
-			'hide_on_screen' => array (
-			),
-		),
-		'menu_order' => 0,
-	));
-}
-
-if(function_exists("register_field_group"))
-{
-	register_field_group(array (
-		'id' => 'acf_boston-session-relationship',
-		'title' => 'Boston Session Relationship',
-		'fields' => array (
-			array (
-				'key' => 'field_5773b089dcb13',
-				'label' => 'Boston Session Relationship',
-				'name' => 'boston_session_relationship',
-				'type' => 'relationship',
-				'return_format' => 'object',
-				'post_type' => array (
-					0 => 'Boston_session',
-				),
-				'taxonomy' => array (
-					0 => 'all',
-				),
-				'filters' => array (
-					0 => 'search',
-				),
-				'result_elements' => array (
-					0 => 'post_type',
-					1 => 'post_title',
-				),
-				'max' => '',
-			),
-		),
-		'location' => array (
-			array (
-				array (
-					'param' => 'post_type',
-					'operator' => '==',
-					'value' => 'boston_speaker',
-					'order_no' => 0,
-					'group_no' => 0,
-				),
-			),
-		),
-		'options' => array (
-			'position' => 'normal',
-			'layout' => 'no_box',
-			'hide_on_screen' => array (
-			),
-		),
-		'menu_order' => 0,
-	));
-}
-
-if( function_exists('acf_add_local_field_group') ):
-
-acf_add_local_field_group(array (
-	'key' => 'group_577fe863893a3',
-	'title' => 'Date and Time Picker',
-	'fields' => array (
-		array (
-			'key' => 'field_577fe86dbfe6e',
-			'label' => 'Boston Date',
-			'name' => 'boston_date',
-			'type' => 'date_time_picker',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => 0,
-			'wrapper' => array (
-				'width' => '',
-				'class' => '',
-				'id' => '',
-			),
-			'show_date' => 'true',
-			'date_format' => 'yymmdd',
-			'time_format' => 'h:mm tt',
-			'show_week_number' => 'false',
-			'picker' => 'slider',
-			'save_as_timestamp' => 'true',
-			'get_as_timestamp' => 'true',
-		),
-	),
-	'location' => array (
-		array (
-			array (
-				'param' => 'post_type',
-				'operator' => '==',
-				'value' => 'boston_session',
-			),
-		),
-	),
-	'menu_order' => 0,
-	'position' => 'normal',
-	'style' => 'default',
-	'label_placement' => 'top',
-	'instruction_placement' => 'label',
-	'hide_on_screen' => '',
-	'active' => 1,
-	'description' => '',
-));
-
-endif;
-
-if( function_exists('acf_add_local_field_group') ):
-
-acf_add_local_field_group(array (
-	'key' => 'group_577fead43283c',
-	'title' => 'Boston Speaker Photo',
-	'fields' => array (
-		array (
-			'key' => 'field_577feb62f9ddb',
-			'label' => 'Boston Speaker Photo',
-			'name' => 'boston_speaker_photo',
-			'type' => 'relationship',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => 0,
-			'wrapper' => array (
-				'width' => '',
-				'class' => '',
-				'id' => '',
-			),
-			'post_type' => array (
-				0 => 'boston_speaker',
-			),
-			'taxonomy' => array (
-			),
-			'filters' => '',
-			'elements' => '',
-			'min' => '',
-			'max' => '',
-			'return_format' => 'object',
-		),
-	),
-	'location' => array (
-		array (
-			array (
-				'param' => 'post_type',
-				'operator' => '==',
-				'value' => 'boston_session',
-			),
-		),
-	),
-	'menu_order' => 0,
-	'position' => 'normal',
-	'style' => 'default',
-	'label_placement' => 'top',
-	'instruction_placement' => 'label',
-	'hide_on_screen' => '',
-	'active' => 1,
-	'description' => '',
-));
-
-endif;
 
 function register_boston_sponsor_post_type()
 {
@@ -345,3 +124,213 @@ function register_boston_sponsor_post_type()
     register_post_type("boston_sponsor", $args);
 }
 add_action('init', 'register_boston_sponsor_post_type'); ?>
+
+
+<?php
+
+if( function_exists('acf_add_local_field_group') ):
+
+acf_add_local_field_group(array (
+	'key' => 'group_586a721550db2',
+	'title' => 'Boston Session Relationship',
+	'fields' => array (
+		array (
+			'key' => 'field_586a7269a2d61',
+			'label' => 'Boston Session Relationship',
+			'name' => 'boston_session_relationship',
+			'type' => 'relationship',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'post_type' => array (
+				0 => 'boston_session',
+			),
+			'taxonomy' => array (
+			),
+			'filters' => array (
+				0 => 'post_type',
+			),
+			'elements' => '',
+			'min' => '',
+			'max' => '',
+			'return_format' => 'object',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'boston_speaker',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
+acf_add_local_field_group(array (
+	'key' => 'group_586a709cc2d86',
+	'title' => 'Boston Speaker Fields',
+	'fields' => array (
+		array (
+			'key' => 'field_586a719d5273c',
+			'label' => 'Keynote',
+			'name' => 'boston_keynote',
+			'type' => 'true_false',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'message' => '',
+			'default_value' => 0,
+		),
+		array (
+			'key' => 'field_586a71be5273d',
+			'label' => 'Speaker Job Title',
+			'name' => 'boston_job_title',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_586a71d65273e',
+			'label' => 'Speaker Twitter',
+			'name' => 'boston_twitter',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_586a71f85273f',
+			'label' => 'Speaker Website',
+			'name' => 'boston_website',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'boston_speaker',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
+acf_add_local_field_group(array (
+	'key' => 'group_586a7384428df',
+	'title' => 'Boston Speaker Photo',
+	'fields' => array (
+		array (
+			'key' => 'field_586a73d329d26',
+			'label' => 'Boston Speaker Photo',
+			'name' => 'boston_speaker_photo',
+			'type' => 'relationship',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'post_type' => array (
+				0 => 'boston_speaker',
+			),
+			'taxonomy' => array (
+			),
+			'filters' => array (
+				0 => 'post_type',
+			),
+			'elements' => '',
+			'min' => '',
+			'max' => '',
+			'return_format' => 'object',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'boston_session',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => 1,
+	'description' => '',
+));
+
+endif; ?>
