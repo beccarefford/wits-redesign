@@ -22,23 +22,6 @@
 <div class="home">
 	<div class="row">
 	<div class="col-md-3">
-		<a href="/philadelphia">
-		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
-		min-height: 260px;max-height: 260px;background-color: #1D181C;" class="panel-widget-style"
-		onmouseover="this.style.background='#9E1B42';"
-		onmouseout="this.style.background='#1D181C';">
-			<center>
-				<div class="state">l</div>
-				<h2><font style="color:#fff;">Philadelphia</font></h2>
-				<p>
-					Spring 2017
-				</p>
-			</center>
-		</div>
-		</a>
-	</div>
-
-	<div class="col-md-3">
 		<a href="/washington">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
 		min-height: 260px; max-height: 260px;background-color: #3C323B;" class="panel-widget-style"
@@ -49,6 +32,23 @@
 				<h2><font style="color:#fff;">Washington DC</font></h2>
 				<p>
 					March 24, 2017
+				</p>
+			</center>
+		</div>
+		</a>
+	</div>
+
+	<div class="col-md-3">
+		<a href="/philadelphia">
+		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
+		min-height: 260px;max-height: 260px;background-color: #1D181C;" class="panel-widget-style"
+		onmouseover="this.style.background='#9E1B42';"
+		onmouseout="this.style.background='#1D181C';">
+			<center>
+				<div class="state">l</div>
+				<h2><font style="color:#fff;">Philadelphia</font></h2>
+				<p>
+					April 21 & 22, 2017
 				</p>
 			</center>
 		</div>

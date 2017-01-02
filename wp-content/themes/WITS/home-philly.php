@@ -11,7 +11,7 @@
 				<h1>Philadelphia</h1>
 				<div class="col-md-12">
 					<div class="box">
-						<span class="desc">Spring 2017</span>
+						<span class="desc">April 21 & 22, 2017</span>
 						<?php if( get_field('philly_schedule_button_url') ): ?>
 							<div>
 								<a target="_blank" href="<?php the_field('philly_schedule_button_url')?>"
