@@ -56,16 +56,16 @@
 	</div>
 
 	<div class="col-md-3">
-		<a href="/raleigh">
+		<a href="/boston_home">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
 		min-height: 260px; max-height: 260px; background-color: #2A2329;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#2A2329';">
 			<center>
-				<div class="state">a</div>
-				<h2><font style="color:#fff;">Raleigh-Durham</font></h2>
+				<div class="state">s</div>
+				<h2><font style="color:#fff;">Boston</font></h2>
 				<p>
-					November 11, 2017
+					July 22, 2017
 				</p>
 			</center>
 		</div>
