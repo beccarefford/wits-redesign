@@ -75,7 +75,12 @@ endif;
 
 
 
-
+<center>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <h1 style="margin-top:150px;">Philadelphia Sponsors</h1>
+</center>
 
   <?php $query = array(
         	'post_type' => 'philly_sponsor',
@@ -305,6 +310,9 @@ endif;
 
 
 <center>
+  &nbsp;
+  &nbsp;
+  &nbsp;
   <h1 style="margin-top:150px;">Raleigh-Durham Sponsors</h1>
 </center>
 
@@ -582,6 +590,9 @@ endif;
 
 
 <center>
+  &nbsp;
+  &nbsp;
+  &nbsp;
   <h1 style="margin-top:150px;">Washington D.C. Sponsors</h1>
 </center>
 
