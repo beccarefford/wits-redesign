@@ -67,10 +67,10 @@
 				<div class="col-md-5">
 					&nbsp;
 					<h2>Event Details</h2>
-					<p><strong>Join us for our first year in Boston!</strong>
-					<br /><a target="_blank" href="http://womenintechsummit.us4.list-manage.com/subscribe?u=cd7267f1d913ce62c1b8f5b7b&id=d193e8ea2c">
-						Sign up for our mailing list</a> for announcements about our
-						2017 events and other updates.</p>
+					<p><strong>Location</strong>
+					<br />General Assembly
+					<br />125 Summer St, 13th Floor
+					<br />Boston, MA 02110</p>
 				</div>
 			</div>
 
