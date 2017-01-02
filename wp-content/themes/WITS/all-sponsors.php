@@ -13,15 +13,16 @@ get_header(); ?>
 </div>
 </section>
 
-  <div class="row">
+<?php /* SUMMIT SERIES */ ?>
+
+<section class="container headline">
+  <div style="margin-top:100px;" class="row">
     <div class="col-md-12">
       <h1><center>
         Summit Series
       </center></h1>
     </div>
   </div>
-
-<?php /* SUMMIT SERIES */ ?>
 
 <?php
   $current_post = 1; ?>
@@ -297,5 +298,7 @@ endif;
 ?>
 
 <?php wp_reset_postdata(); ?>
+
+</section>
 
 <?php get_footer(); ?>
