@@ -88,23 +88,8 @@
 				</div>
 			</div>
 
-		<center>
-			<p>
-				<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
-			</p>
-		</center>
-<br />
-		<center>
-		<a target="_blank" href="/2017-philadelphia-organizing-committee/">
-			<div class="btn">View the Committee</div>
-		</a>
-		</center>
-		<br />
-		<br />
-		<br />
-
 	</section>
-<?php /*
+<?php
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">
@@ -206,7 +191,7 @@ wp_reset_postdata(); ?>
 </section>
 <!--End Speaker Carousel-->
 
-
+<?php /*
 
 <!-- Start Sponsors -->
 <div id="tile_sponsors" class="container widget">
@@ -234,13 +219,22 @@ wp_reset_postdata(); ?>
 </div>
 <!-- End Sponsors -->
 
-<?php if( get_field('philly_schedule_button_url') ): ?>
-	<center>
-	<h2>None of this would be possible without our team of volunteers.</h2>
-		<a href="<?php the_field('philly_committee_url') ?>">Read more about them here.</a>
-<?php endif; ?>
-
 */ ?>
+
+<center>
+	<p>
+		<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
+	</p>
+</center>
+<br />
+<center>
+<a target="_blank" href="/2017-philadelphia-organizing-committee/">
+	<div class="btn">View the Committee</div>
+</a>
+</center>
+<br />
+<br />
+<br />
 
 
 <?php get_footer(); ?>

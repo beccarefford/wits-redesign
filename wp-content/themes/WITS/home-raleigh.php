@@ -83,7 +83,6 @@
 </div>
 
 	</section>
-<?php /*
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">
@@ -182,21 +181,6 @@ wp_reset_postdata(); ?>
 		</div>
 	</div>
 
-	<center>
-		<p>
-			<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
-		</p>
-	</center>
-<br />
-	<center>
-	<a target="_blank" href="/2016-raleigh-durham-organizing-committee">
-		<div class="btn">View the Committee</div>
-	</a>
-	</center>
-	<br />
-	<br />
-	<br />
-
 </section>
 <!--End Speaker Carousel-->
 
@@ -227,5 +211,20 @@ wp_reset_postdata(); ?>
 	</div>
 </div>
 <!-- End Sponsors --> */?>
+
+<center>
+	<p>
+		<strong>This event wouldn't happen without our dedicated team of volunteers.</strong>
+	</p>
+</center>
+<br />
+<center>
+<a target="_blank" href="/2016-raleigh-durham-organizing-committee">
+	<div class="btn">View the Committee</div>
+</a>
+</center>
+<br />
+<br />
+<br />
 
 <?php get_footer(); ?>
