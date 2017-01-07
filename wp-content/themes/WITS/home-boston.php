@@ -29,7 +29,7 @@
   <a href="/boston_session">
     <div class="col-md-4 nopadding">
         <div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
-          <h2>2016 Sessions</h2>
+          <h2>Sessions</h2>
         </div>
     </div>
   </a>
@@ -37,15 +37,15 @@
   <a href="/boston_speaker">
     <div class="col-md-4 nopadding">
       <div style="max-height:70px;" class="home-speaker" onmouseover="this.style.background='#493D48';" onmouseout="this.style.background='#3C323B';">
-        <h2>2016 Speakers</h2>
+        <h2>Speakers</h2>
       </div>
     </div>
   </a>
 
-	<a href="/philadelphia-sponsors">
+	<a href="/boston_sponsors">
 		<div class="col-md-4 nopadding">
 			<div style="max-height:70px;" class="home-sponsor" onmouseover="this.style.background='#635B63';" onmouseout="this.style.background='#493D48';">
-				<h2>2016 Sponsors</h2>
+				<h2>Sponsors</h2>
 			</div>
 		</div>
 	</a>
