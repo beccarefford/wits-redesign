@@ -89,7 +89,6 @@
 			</div>
 
 	</section>
-<?php
 	<section class="container keynote">
         <h2>Keynote Speakers</h2>
 	<div class="row">
