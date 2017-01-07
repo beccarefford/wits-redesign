@@ -103,6 +103,8 @@
 
 */ ?>
 
+</section>
+
 	<section class="container keynote">
 	<div class="row">
 		<?php
