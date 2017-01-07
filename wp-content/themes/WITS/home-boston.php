@@ -26,7 +26,6 @@
 
 
 	<div class="row nopadding">
-		<?php /*
   <a href="/boston_session">
     <div class="col-md-4 nopadding">
         <div style="max-height:70px;" class="home-session" onmouseover="this.style.background='#2A2329';" onmouseout="this.style.background='#1D181C';">
@@ -50,7 +49,6 @@
 			</div>
 		</div>
 	</a>
-	*/ ?>
 </div>
 
 		<section class="container headline">
