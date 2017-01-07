@@ -35,7 +35,7 @@ function register_boston_session_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "Boston_session", "with_front" => true),
+        "rewrite" => array("slug" => "boston_session", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author", "tags"),
     );
@@ -78,7 +78,7 @@ function register_boston_speaker_post_type()
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array("slug" => "Boston_speaker", "with_front" => true),
+        "rewrite" => array("slug" => "boston_speaker", "with_front" => true),
         "query_var" => true,
         "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author"),
     );
@@ -331,4 +331,4 @@ acf_add_local_field_group(array (
 	'hide_on_screen' => '',
 	'active' => 1,
 	'description' => '',
-)); ?>
+)); */ ?>
