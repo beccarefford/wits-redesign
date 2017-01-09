@@ -73,16 +73,16 @@
 	</div>
 
 	<div class="col-md-3">
-		<a href="/become-a-sponsor">
+		<a href="/#">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
 		min-height: 260px; max-height: 260px;background-color: #493D48;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"
 		onmouseout="this.style.background='#493D48';">
 			<center>
 				<i class="fa fa-gift fa-5x" aria-hidden="true"></i>
-				<h2><font style="color:#fff;">Sponsor</font></h2>
+				<h2><font style="color:#fff;">All Cities</font></h2>
 				<p>
-					View Levels
+					5+ events
 				</p>
 			</center>
 		</div>
