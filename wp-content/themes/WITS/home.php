@@ -73,7 +73,7 @@
 	</div>
 
 	<div class="col-md-3">
-		<a href="/#">
+		<a href="/all-cities">
 		<div style="padding: 50px; margin-top: -10px; color: rgb(255, 255, 255);
 		min-height: 260px; max-height: 260px;background-color: #493D48;" class="panel-widget-style"
 		onmouseover="this.style.background='#9E1B42';"

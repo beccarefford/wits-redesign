@@ -37,31 +37,6 @@ Template: interface
 #pgc-6-1-0, #pgc-6-1-1, #pgc-6-1-2 {
     width: 33.333%;
 }
-
-.sponsorblock {
-  width: 50%;
-  /* whatever width you want */
-  display: inline-block;
-  position: relative;
-}
-.sponsorblock:after {
-  padding-top: 56.25%;
-  /* 16:9 ratio */
-  display: block;
-  content: '';
-}
-.sponsorblocktext {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  /* fill parent */
-  background-color: deepskyblue;
-  /* let's see it! */
-  color: white;
-}
-
 .panel-grid-cell {
     -ms-box-sizing: border-box;
     -moz-box-sizing: border-box;
