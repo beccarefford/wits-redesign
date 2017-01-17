@@ -5,6 +5,7 @@ Plugin Name: Washington Custom Post Types
 Description: Sessions, speakers, and sponsors for Washington.
 */
 
+
 function register_washington_session_post_type()
 {
     $labels = array(
@@ -231,7 +232,9 @@ acf_add_local_field_group(array (
 			),
 			'taxonomy' => array (
 			),
-			'filters' => '',
+      'filters' => array (
+        0 => 'search',
+      ),
 			'elements' => '',
 			'min' => '',
 			'max' => '',
