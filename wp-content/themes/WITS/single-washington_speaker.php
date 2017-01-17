@@ -35,12 +35,12 @@
           <?php echo the_content(); ?>
 
           <center>
-            <br /><?php if( get_field('website') ): ?>
-            <a target="_blank" href="<?php the_field('website');?>"><i class="icon-globe icon-2x"></i></a>
+            <br /><?php if( get_field('washington_website') ): ?>
+            <a target="_blank" href="<?php the_field('washington_website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
-            <?php if( get_field('twitter') ): ?>
-              <a target="_blank" href="<?php the_field('twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+            <?php if( get_field('washington-twitter') ): ?>
+              <a target="_blank" href="<?php the_field('washington-twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
 
         </div>
