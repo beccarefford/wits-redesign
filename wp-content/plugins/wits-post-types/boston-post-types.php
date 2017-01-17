@@ -127,9 +127,9 @@ add_action('init', 'register_boston_sponsor_post_type'); ?>
 
 <?php
 
-if( function_exists('acf_add_local_field_group') ):
-
-acf_add_local_field_group(array (
+if(function_exists("register_boston_field_group"))
+{
+  acf_add_local_field_group(array (
 	'key' => 'group_586a721550db2',
 	'title' => 'Boston Session Relationship',
 	'fields' => array (
@@ -330,4 +330,5 @@ acf_add_local_field_group(array (
 	'hide_on_screen' => '',
 	'active' => 1,
 	'description' => '',
-));  } ?>
+));
+}?>
