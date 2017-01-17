@@ -126,7 +126,7 @@ function register_boston_sponsor_post_type()
 add_action('init', 'register_boston_sponsor_post_type'); ?>
 
 
-<?php /*
+<?php
 
 if( function_exists('acf_add_local_field_group') ):
 
@@ -331,4 +331,4 @@ acf_add_local_field_group(array (
 	'hide_on_screen' => '',
 	'active' => 1,
 	'description' => '',
-)); */ 
+)); 
