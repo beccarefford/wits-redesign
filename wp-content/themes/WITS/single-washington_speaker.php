@@ -39,8 +39,8 @@
             <a target="_blank" href="<?php the_field('washington_website');?>"><i class="icon-globe icon-2x"></i></a>
             <?php endif; ?>
 
-            <?php if( get_field('washington-twitter') ): ?>
-              <a target="_blank" href="<?php the_field('washington-twitter');?>"><i class="icon-twitter icon-2x"></i></a>
+            <?php if( get_field('washington_twitter') ): ?>
+              <a target="_blank" href="<?php the_field('washington_twitter');?>"><i class="icon-twitter icon-2x"></i></a>
             <?php endif; ?>
 
         </div>
